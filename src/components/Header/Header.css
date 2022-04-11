@@ -1,12 +1,9 @@
 @import '../../index.css';
 
 #menu-nav-links {
-	display: inline-block;
+	display: inline;
 	padding: 30px;
-	position: fixed;
-	right: 0;
-	top: 6px;
-	display: flex;
+	float: right;
 }
 
 .nav-link {
@@ -15,13 +12,10 @@
 }
 
 #title {
-	display: inline-block;
+	display: inline;
 	padding: 30px;
-	position: fixed;
-    left: 0;
-    top: 0;
+	float: left;
 	font-size: 30px;
-	display: flex;
 	color: var(--orange);
 }
 

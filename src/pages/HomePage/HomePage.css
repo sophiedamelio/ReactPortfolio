@@ -1,0 +1,9 @@
+.components {
+	display: flex;
+	flex-direction: column;
+	background-color: black;
+}
+
+#proj {
+	background-color: black;
+}
