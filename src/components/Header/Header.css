@@ -1,0 +1,30 @@
+@import '../../index.css';
+
+#menu-nav-links {
+	display: inline-block;
+	padding: 30px;
+	position: fixed;
+	right: 0;
+	top: 6px;
+	display: flex;
+}
+
+.nav-link {
+	margin: 10px;
+	color: var(--orange);
+}
+
+#title {
+	display: inline-block;
+	padding: 30px;
+	position: fixed;
+    left: 0;
+    top: 0;
+	font-size: 30px;
+	display: flex;
+	color: var(--orange);
+}
+
+#all-nav-links {
+	font-family: var(--ivymode);
+}
