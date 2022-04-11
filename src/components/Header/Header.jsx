@@ -8,9 +8,9 @@ export default function Header() {
 		<div id="all-nav-links">
 			<a href="/portfolio" id="title">Sophie Damelio</a>
 			<div id="menu-nav-links">
-				<a href="/about" class="nav-link">About</a>
-				<a href="/projects" class="nav-link">Projects</a>
-				<a href="/contact" class="nav-link">Contact</a>
+				<a href="/about" className="nav-link">About</a>
+				<a href="/projects" className="nav-link">Projects</a>
+				<a href="/contact" className="nav-link">Contact</a>
 			</div>
 		</div>
 	)
