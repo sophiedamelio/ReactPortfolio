@@ -1,5 +1,7 @@
-import Header from '../../components/Header/Header'
+import Navbar from '../../components/Navbar/Navbar'
 import Projects from '../../components/Projects/Projects'
+import Footer from '../../components/Footer/Footer'
+import About from '../../components/About/About'
 
 import { useState } from 'react'
 
@@ -10,8 +12,10 @@ export default function HomePage() {
 
 	return (
 		<div id="proj">
-			<Header className="components" />
+			<Navbar className="components" />
+			<About />
 			<Projects className="components" sophie={sophie} setSophie={setSophie} />
+			<Footer />
 		</div>
 	)
 }

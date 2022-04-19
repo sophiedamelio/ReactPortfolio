@@ -1,7 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 
 import HomePage from '../HomePage/HomePage'
+import ItgDetail from '../ItgDetail/ItgDetail';
 
 function App() {
   return (
@@ -23,6 +23,7 @@ function App() {
     //</div>
     <>
       <HomePage />
+      <ItgDetail />
     </>
   );
 }
