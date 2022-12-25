@@ -1,5 +1,5 @@
 import "./Navbar.css"
-import { Header } from 'semantic-ui-react'
+import { Header } from 'semantic-ui-react';
 
 
 export default function Navbar() {
