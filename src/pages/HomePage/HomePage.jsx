@@ -3,6 +3,8 @@ import Projects from '../../components/Projects/Projects'
 import Footer from '../../components/Footer/Footer'
 import About from '../../components/About/About'
 
+import './HomePage.css';
+
 import { useState } from 'react'
 
 

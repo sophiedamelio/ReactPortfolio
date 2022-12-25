@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './pages/App/App';
 import reportWebVitals from './reportWebVitals';
+import './fonts/OPTIAmway.otf'
+
 
 ReactDOM.render(
   <React.StrictMode>
