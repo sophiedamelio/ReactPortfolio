@@ -1,4 +1,17 @@
+* {
+	background-color: var(--white);
+}
+
 h2 {
-	font-family: "OPTIAmway";
+	font-family: var(--ivymode);
 	color: var(--brown);
+}
+
+p {
+	font-family: var(--brandon);
+	color: var(--brown);
+}
+
+a {
+	color: var(--orange);
 }

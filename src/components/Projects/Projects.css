@@ -7,3 +7,6 @@ img {
 	height: 10%;
 }
 
+h3 {
+	font-family: var(--ivymode);
+}
