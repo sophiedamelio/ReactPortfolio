@@ -7,4 +7,6 @@
 #proj {
 	background-color: var(--white);
 	font-family: 'Josefin Sans', sans-serif;
+	color: var(--brown);
+	font-weight: 80;
 }
