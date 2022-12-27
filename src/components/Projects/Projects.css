@@ -7,6 +7,60 @@ img {
 	height: 10%;
 }
 
+/*#projects > h2 {
+	display: flex;
+	flex-wrap: nowrap;
+}*/
+
 h3 {
 	font-family: var(--ivymode);
+}
+
+button {
+    border-radius: 500px;
+    background-color: var(--orange);
+    color: var(--white);
+    padding: 2vh;
+    padding-bottom: 1.5vh;
+    margin-right: 3vh;
+    margin-bottom: none;
+    border: none;
+    font-size: smaller;
+	font-family: var(--brandon);
+}
+
+button:hover {
+	border-radius: 500px;
+    background-color: var(--lt-orange);
+    color: var(--white);
+    padding: 2vh;
+    padding-bottom: 1.5vh;
+    margin-right: 3vh;
+    margin-bottom: none;
+    border: none;
+    font-size: smaller;
+}
+
+#projects {
+	display: flex;
+    flex-wrap: wrap;
+    /*margin-right: -15px;
+    margin-left: -15px;*/
+}
+
+.projectCard {
+	/*width: 100%;*/
+	/*flex: 50%;*/
+	background-color: var(--lt-pink);
+	/*margin: .5vh;*/
+}
+
+#projects > div {
+	flex: 50%;
+	/*margin: 1vh;*/
+	/*background-color: var(--lt-pink);*/
+}
+
+.cardBackground {
+	background-color: var(--lt-pink);
 }

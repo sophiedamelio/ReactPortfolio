@@ -1,3 +1,6 @@
+@import '../../index.css';
+
 h2 {
-	font-family: "OPTIAmway";
+	font-family: var(--ivymode);
+	/*font-family: "OPTIAmway";*/
 }

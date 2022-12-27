@@ -1,11 +1,11 @@
-.components {
+/*.components {
 	display: flex;
 	flex-direction: column;
 	background-color: black;
-}
+}*/
 
 #proj {
-	background-color: var(--white);
+	/*background-color: var(--white);*/
 	font-family: var(--brandon);
 	color: var(--brown);
 	font-weight: 80;
