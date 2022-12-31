@@ -7,11 +7,6 @@ img {
 	height: 10%;
 }
 
-/*#projects > h2 {
-	display: flex;
-	flex-wrap: nowrap;
-}*/
-
 h2 {
 	font-family: var(--ivymode);
 }
@@ -39,29 +34,4 @@ button:hover {
     margin-bottom: none;
     border: none;
     font-size: smaller;
-}
-
-#projects {
-	/*display: flex;*/
-    /*flex-wrap: wrap;*/
-    /*margin-right: -15px;
-    margin-left: -15px;*/
-}
-
-.projectCard {
-	/*width: 100%;*/
-	/*flex: 50%;*/
-	/*background-color: var(--lt-pink);*/
-	/*margin-left: 5vh;*/
-	/*margin-right: 5vh;*/
-}
-
-#projects > div {
-	/*flex: 50%;*/
-	/*margin: 1vh;*/
-	/*background-color: var(--lt-pink);*/
-}
-
-.cardBackground {
-	/*background-color: var(--lt-pink);*/
 }
