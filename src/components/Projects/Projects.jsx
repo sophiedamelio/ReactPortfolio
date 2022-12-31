@@ -49,7 +49,7 @@ export default function Projects({ sophie, setSophie }) {
 
 				{/* if listSkills is truthy (has value in this case), list them out as a unordered list. If listSkills is falsey/ does not have value, render nothing */}
 				{/*{listSkills ? <ul>{listSkills}</ul> : null}*/}
-				<h2 style={{ marginLeft: "5vh" }}>Projects</h2>
+				<h2 style={{ marginLeft: "5vh", fontFamily: "OPTIAmway" }}>Projects</h2>
 				<Grid.Row>
 					<Grid.Column>
 						<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "90%", height: "100%", marginLeft: "5vh", marginRight: "0vh" }}>
