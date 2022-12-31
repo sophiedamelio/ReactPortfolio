@@ -7,17 +7,21 @@ import './HomePage.css';
 
 import { useState } from 'react'
 
+import { Grid } from 'semantic-ui-react';
+
 
 export default function HomePage() {
 
 	const [sophie, setSophie] = useState("https://i.imgur.com/P5KDK68.png")
 
 	return (
-		<div id="proj">
-			<Navbar className="components" />
-			<About />
-			<Projects className="components" sophie={sophie} setSophie={setSophie} />
-			<Footer />
+		<div id="homePage">
+			<Grid>
+				<Navbar className="components" />
+				<About />
+				<Projects className="components" sophie={sophie} setSophie={setSophie} />
+				<Footer />
+			</Grid>
 		</div>
 	)
 }

@@ -3,14 +3,13 @@
 #menu-nav-links {
 	display: inline;
 	padding: 30px;
-	float: right;
+	position: absolute;
+	right: 0;
 	font-family: 'Josefin Sans', sans-serif;
 }
 
 .nav-link {
-	/*margin: 10px;*/
 	color: var(--orange);
-    background-color: var(--white);
     font-size: 16px;
     width: 15vh;
     text-align: left;

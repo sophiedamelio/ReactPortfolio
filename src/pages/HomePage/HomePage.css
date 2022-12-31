@@ -4,9 +4,12 @@
 	background-color: black;
 }*/
 
-#proj {
-	/*background-color: var(--white);*/
+div {
 	font-family: var(--brandon);
 	color: var(--brown);
 	font-weight: 80;
+}
+
+#homePage {
+	background-color: var(--white);
 }
