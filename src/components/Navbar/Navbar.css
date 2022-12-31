@@ -38,10 +38,11 @@
 	float: left;
 	font-size: 30px;
 	color: var(--orange);
-	font-family: var(--ivymode);
+	/*font-family: var(--ivymode);*/
 	background-color: none;
 }
 
 #all-nav-links {
 	font-family: var(--ivymode);
+	padding: 5vh;
 }

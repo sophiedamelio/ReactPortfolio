@@ -1,6 +1,11 @@
-@import '../../index.css';
+/*@import '../../index.css';*/
 
-h2 {
+#aboutTitle {
+	/*font-family: var(--ivymode);*/
 	font-family: var(--ivymode);
-	/*font-family: "OPTIAmway";*/
+	color: var(--brown)
+}
+
+#aboutSection {
+	margin: 5vh;
 }
