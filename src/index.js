@@ -4,6 +4,7 @@ import './index.css';
 import App from './pages/App/App';
 import reportWebVitals from './reportWebVitals';
 import './fonts/OPTIAmway.otf'
+import 'semantic-ui-css/semantic.min.css'
 
 
 ReactDOM.render(

@@ -42,8 +42,8 @@ button:hover {
 }
 
 #projects {
-	display: flex;
-    flex-wrap: wrap;
+	/*display: flex;*/
+    /*flex-wrap: wrap;*/
     /*margin-right: -15px;
     margin-left: -15px;*/
 }
@@ -51,16 +51,16 @@ button:hover {
 .projectCard {
 	/*width: 100%;*/
 	/*flex: 50%;*/
-	background-color: var(--lt-pink);
+	/*background-color: var(--lt-pink);*/
 	/*margin: .5vh;*/
 }
 
 #projects > div {
-	flex: 50%;
+	/*flex: 50%;*/
 	/*margin: 1vh;*/
 	/*background-color: var(--lt-pink);*/
 }
 
 .cardBackground {
-	background-color: var(--lt-pink);
+	/*background-color: var(--lt-pink);*/
 }
