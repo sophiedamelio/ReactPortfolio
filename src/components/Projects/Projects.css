@@ -52,7 +52,8 @@ button:hover {
 	/*width: 100%;*/
 	/*flex: 50%;*/
 	/*background-color: var(--lt-pink);*/
-	/*margin: .5vh;*/
+	/*margin-left: 5vh;*/
+	/*margin-right: 5vh;*/
 }
 
 #projects > div {

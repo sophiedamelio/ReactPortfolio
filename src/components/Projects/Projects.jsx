@@ -1,7 +1,7 @@
 import "./Projects.css"
 import { useEffect, useState } from "react"
-import { Grid, GridColumn } from "semantic-ui-react"
-
+import { Grid, Card, Image } from "semantic-ui-react"
+//import "../../index.css"
 
 
 export default function Projects({ sophie, setSophie }) {
@@ -35,7 +35,7 @@ export default function Projects({ sophie, setSophie }) {
 
 
 	return (
-		<div id="projects">
+		<div>
 			<h2>Projects</h2>
 			<Grid columns={2}>
 				{/*<button onClick={() => {
@@ -52,72 +52,108 @@ export default function Projects({ sophie, setSophie }) {
 				{/*{listSkills ? <ul>{listSkills}</ul> : null}*/}
 				<Grid.Row>
 					<Grid.Column>
-						<div class="projectCard">
-							<div class="cardBackground">
-								<h3>songSpace Express App</h3>
-								<img src="https://i.imgur.com/QmloUf2.png" alt="screenshot of app" />
-								<p>I built a Fullstack Express App with React frontend, that performs full CRUD functionality.
+						<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "90%", height: "100%", marginLeft: "5vh", marginRight: "0vh" }}>
+							{/*<div class="projectCard">*/}
+							{/*<div class="cardBackground">*/}
+							<Card.Content>
+								<Card.Header style={{ color: "rgb(110, 87, 91)" }}>songSpace Express App</Card.Header>
+								{/*<h3>songSpace Express App</h3>*/}
+								<Image src="https://i.imgur.com/QmloUf2.png" alt="screenshot of app" size={'big'} />
+								<Card.Description style={{ color: "rgb(110, 87, 91)" }}>
+									I built a Fullstack Express App with React frontend, that performs full CRUD functionality.
 									I utilized JWT for authentication, MongoDB for storage, Semantic-ui-react for styling, and Heroku for deployment.
-									To view the app use this login: username: demo@demo.com, password: demo</p>
-								<a target="_blank" rel="noopener noreferrer" href="https://github.com/sophiedamelio/project_4"><button>Link to the Repo</button></a>
-								<a target="_blank" rel="noopener noreferrer" href="https://songspace-app.herokuapp.com/"><button>Explore songSpace</button></a>
-							</div>
-						</div>
+									To view the app use this login: username: demo@demo.com, password: demo
+									<a target="_blank" rel="noopener noreferrer" href="https://github.com/sophiedamelio/project_4"><button>Link to the Repo</button></a>
+									<a target="_blank" rel="noopener noreferrer" href="https://songspace-app.herokuapp.com/"><button>Explore songSpace</button></a>
+								</Card.Description>
+							</Card.Content>
+							{/*</div>*/}
+							{/*</div>*/}
+						</Card>
 					</Grid.Column>
 
 					<Grid.Column>
-						<div class="projectCard">
-							<div class="cardBackground">
-								<h3>everyJob Django App</h3>
-								<img src="https://i.imgur.com/ixSrCHd.png" alt="screenshot of app" />
-								<p class="card-text">As a part of a four person team I collaboratively  built a Fullstack Django app with full CRUD functionality.
-									We utilized PostgreSQL for database storage, Django built-in Authentication, and deployment on Heroku.</p>
-								<a target="_blank" rel="noopener noreferrer" href="https://github.com/sophiedamelio/everyJob"><button>Link to the Repo</button></a>
-								<a target="_blank" rel="noopener noreferrer" href="https://sophie-everyjob.herokuapp.com/"><button>Explore everyJob</button></a>
-							</div>
-						</div>
-					</Grid.Column>
-				</Grid.Row>
-
-				<Grid.Row>
-					<Grid.Column>
-						<div class="projectCard">
-							<div class="cardBackground">
-								<h3>Wishlist Express App</h3>
-								<img src="https://i.imgur.com/DgzgQqh.png" alt="screenshot of app" />
-								<p class="card-text">I built a Wishlist app using Express with full CRUD functionality and Google OAuth.
-									MongoDB is used for storage, and it is deployed on Heroku.</p>
-								<a target="_blank" rel="noopener noreferrer" href="https://github.com/sophiedamelio/project_two"><button>Link to the Repo</button></a>
-								<a target="_blank" rel="noopener noreferrer" href="https://sophie-project-two.herokuapp.com/"><button>Get Listing</button></a>
-							</div>
-						</div>
-					</Grid.Column>
-
-					<Grid.Column>
-						<div class="projectCard">
-							<div class="cardBackground">
-								<h3 >Connect Four Browser Game</h3>
-								<img src="https://i.imgur.com/b9LmOUu.png" alt="screenshot of app" />
-								<p>I built a Connect Four browser game using JavaScript and HTML/CSS.
-									I used a Trello board to plan, and deployed via Github Pages. </p>
-								<a target="_blank" rel="noopener noreferrer" href="https://github.com/sophiedamelio/connect_four/"><button>Link to the Repo</button></a>
-								<a target="_blank" rel="noopener noreferrer" href="https://sophiedamelio.github.io/connect_four/"><button>Play Connect Four</button></a>
-							</div>
-						</div>
+						<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "90%", height: "100%", marginLeft: "0vh", marginRight: "5vh" }}>
+							<Card.Content>
+								{/*<div class="projectCard">*/}
+								{/*<div class="cardBackground">*/}
+								<Card.Header style={{ color: "rgb(110, 87, 91)" }}>everyJob Django App</Card.Header>
+								{/*<h3>everyJob Django App</h3>*/}
+								<Image src="https://i.imgur.com/ixSrCHd.png" alt="screenshot of app" size={'big'} />
+								<Card.Description style={{ color: "rgb(110, 87, 91)" }}>
+									<p class="card-text">As a part of a four person team I collaboratively  built a Fullstack Django app with full CRUD functionality.
+										We utilized PostgreSQL for database storage, Django built-in Authentication, and deployment on Heroku.</p>
+									<a target="_blank" rel="noopener noreferrer" href="https://github.com/sophiedamelio/everyJob"><button>Link to the Repo</button></a>
+									<a target="_blank" rel="noopener noreferrer" href="https://sophie-everyjob.herokuapp.com/"><button>Explore everyJob</button></a>
+								</Card.Description>
+								{/*</div>*/}
+								{/*</div>*/}
+							</Card.Content>
+						</Card>
 					</Grid.Column>
 				</Grid.Row>
 
 				<Grid.Row>
 					<Grid.Column>
-						<div class="projectCard">
-							<div class="cardBackground">
-								<h3>Ideas To Go Website</h3>
-								<img src="https://i.imgur.com/Zgn5lPV.jpg" alt="screenshot of app" />
-								<p class="card-text">I developed and designed this website with provided design assets. I organized content, converted graphics and created page layouts. I wrote responsive CSS including section transitions, CTAs, and general styling of elements beyond the built in Squarespace options. </p>
-								<a target="_blank" rel="noopener noreferrer" href='https://github.com/sophiedamelio/itg_css'><button>Link to the Repo</button></a>
-								<a href='/itg_detail'><button>View</button></a>
-							</div>
-						</div>
+						<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "90%", height: "100%", marginLeft: "5vh", marginRight: "0vh" }}>
+							<Card.Content>
+								{/*<div class="projectCard">*/}
+								{/*<div class="cardBackground">*/}
+								<Card.Header style={{ color: "rgb(110, 87, 91)" }}>Wishlist Express App</Card.Header>
+								{/*<h3>Wishlist Express App</h3>*/}
+								<Image src="https://i.imgur.com/DgzgQqh.png" alt="screenshot of app" size={'big'} />
+								<Card.Description style={{ color: "rgb(110, 87, 91)" }}>
+									<p class="card-text">I built a Wishlist app using Express with full CRUD functionality and Google OAuth.
+										MongoDB is used for storage, and it is deployed on Heroku.</p>
+									<a target="_blank" rel="noopener noreferrer" href="https://github.com/sophiedamelio/project_two"><button>Link to the Repo</button></a>
+									<a target="_blank" rel="noopener noreferrer" href="https://sophie-project-two.herokuapp.com/"><button>Get Listing</button></a>
+								</Card.Description>
+								{/*</div>*/}
+								{/*</div>*/}
+							</Card.Content>
+						</Card>
+					</Grid.Column>
+
+					<Grid.Column>
+						<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "90%", height: "100%", marginLeft: "0vh", marginRight: "5vh" }}>
+							<Card.Content>
+
+								{/*<div class="projectCard">
+							<div class="cardBackground">*/}
+								<Card.Header style={{ color: "rgb(110, 87, 91)" }}>Connect Four Browser Game</Card.Header>
+								{/*<h3 >Connect Four Browser Game</h3>*/}
+								<Image src="https://i.imgur.com/b9LmOUu.png" alt="screenshot of app" size={'big'} />
+								<Card.Description style={{ color: "rgb(110, 87, 91)" }}>
+									<p>I built a Connect Four browser game using JavaScript and HTML/CSS.
+										I used a Trello board to plan, and deployed via Github Pages. </p>
+									<a target="_blank" rel="noopener noreferrer" href="https://github.com/sophiedamelio/connect_four/"><button>Link to the Repo</button></a>
+									<a target="_blank" rel="noopener noreferrer" href="https://sophiedamelio.github.io/connect_four/"><button>Play Connect Four</button></a>
+								</Card.Description>
+								{/*</div>*/}
+								{/*</div>*/}
+							</Card.Content>
+						</Card>
+					</Grid.Column>
+				</Grid.Row>
+
+				<Grid.Row>
+					<Grid.Column>
+						<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "90%", height: "100%", marginLeft: "5vh", marginRight: "0vh" }}>
+							<Card.Content>
+								<Card.Header style={{ color: "rgb(110, 87, 91)" }}>Ideas To Go Website</Card.Header>
+								{/*<div class="projectCard">*/}
+								{/*<div class="cardBackground">*/}
+								{/*<h3>Ideas To Go Website</h3>*/}
+								<Image src="https://i.imgur.com/Zgn5lPV.jpg" alt="screenshot of app" size={'big'} />
+								<Card.Description style={{ color: "rgb(110, 87, 91)" }}>
+									<p class="card-text">I developed and designed this website with provided design assets. I organized content, converted graphics and created page layouts. I wrote responsive CSS including section transitions, CTAs, and general styling of elements beyond the built in Squarespace options. </p>
+									<a target="_blank" rel="noopener noreferrer" href='https://github.com/sophiedamelio/itg_css'><button>Link to the Repo</button></a>
+									<a href='/itg_detail'><button>View</button></a>
+								</Card.Description>
+								{/*</div>*/}
+								{/*</div>*/}
+							</Card.Content>
+						</Card>
 					</Grid.Column>
 				</Grid.Row>
 			</Grid>
