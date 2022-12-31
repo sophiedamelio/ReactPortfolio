@@ -53,11 +53,8 @@ export default function Projects({ sophie, setSophie }) {
 				<Grid.Row>
 					<Grid.Column>
 						<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "90%", height: "100%", marginLeft: "5vh", marginRight: "0vh" }}>
-							{/*<div class="projectCard">*/}
-							{/*<div class="cardBackground">*/}
 							<Card.Content>
 								<Card.Header style={{ color: "rgb(110, 87, 91)" }}>songSpace Express App</Card.Header>
-								{/*<h3>songSpace Express App</h3>*/}
 								<Image src="https://i.imgur.com/QmloUf2.png" alt="screenshot of app" size={'big'} />
 								<Card.Description style={{ color: "rgb(110, 87, 91)" }}>
 									I built a Fullstack Express App with React frontend, that performs full CRUD functionality.
@@ -67,18 +64,13 @@ export default function Projects({ sophie, setSophie }) {
 									<a target="_blank" rel="noopener noreferrer" href="https://songspace-app.herokuapp.com/"><button>Explore songSpace</button></a>
 								</Card.Description>
 							</Card.Content>
-							{/*</div>*/}
-							{/*</div>*/}
 						</Card>
 					</Grid.Column>
 
 					<Grid.Column>
 						<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "90%", height: "100%", marginLeft: "0vh", marginRight: "5vh" }}>
 							<Card.Content>
-								{/*<div class="projectCard">*/}
-								{/*<div class="cardBackground">*/}
 								<Card.Header style={{ color: "rgb(110, 87, 91)" }}>everyJob Django App</Card.Header>
-								{/*<h3>everyJob Django App</h3>*/}
 								<Image src="https://i.imgur.com/ixSrCHd.png" alt="screenshot of app" size={'big'} />
 								<Card.Description style={{ color: "rgb(110, 87, 91)" }}>
 									<p class="card-text">As a part of a four person team I collaboratively  built a Fullstack Django app with full CRUD functionality.
@@ -86,8 +78,6 @@ export default function Projects({ sophie, setSophie }) {
 									<a target="_blank" rel="noopener noreferrer" href="https://github.com/sophiedamelio/everyJob"><button>Link to the Repo</button></a>
 									<a target="_blank" rel="noopener noreferrer" href="https://sophie-everyjob.herokuapp.com/"><button>Explore everyJob</button></a>
 								</Card.Description>
-								{/*</div>*/}
-								{/*</div>*/}
 							</Card.Content>
 						</Card>
 					</Grid.Column>
@@ -97,10 +87,7 @@ export default function Projects({ sophie, setSophie }) {
 					<Grid.Column>
 						<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "90%", height: "100%", marginLeft: "5vh", marginRight: "0vh" }}>
 							<Card.Content>
-								{/*<div class="projectCard">*/}
-								{/*<div class="cardBackground">*/}
 								<Card.Header style={{ color: "rgb(110, 87, 91)" }}>Wishlist Express App</Card.Header>
-								{/*<h3>Wishlist Express App</h3>*/}
 								<Image src="https://i.imgur.com/DgzgQqh.png" alt="screenshot of app" size={'big'} />
 								<Card.Description style={{ color: "rgb(110, 87, 91)" }}>
 									<p class="card-text">I built a Wishlist app using Express with full CRUD functionality and Google OAuth.
@@ -108,8 +95,6 @@ export default function Projects({ sophie, setSophie }) {
 									<a target="_blank" rel="noopener noreferrer" href="https://github.com/sophiedamelio/project_two"><button>Link to the Repo</button></a>
 									<a target="_blank" rel="noopener noreferrer" href="https://sophie-project-two.herokuapp.com/"><button>Get Listing</button></a>
 								</Card.Description>
-								{/*</div>*/}
-								{/*</div>*/}
 							</Card.Content>
 						</Card>
 					</Grid.Column>
@@ -117,11 +102,7 @@ export default function Projects({ sophie, setSophie }) {
 					<Grid.Column>
 						<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "90%", height: "100%", marginLeft: "0vh", marginRight: "5vh" }}>
 							<Card.Content>
-
-								{/*<div class="projectCard">
-							<div class="cardBackground">*/}
 								<Card.Header style={{ color: "rgb(110, 87, 91)" }}>Connect Four Browser Game</Card.Header>
-								{/*<h3 >Connect Four Browser Game</h3>*/}
 								<Image src="https://i.imgur.com/b9LmOUu.png" alt="screenshot of app" size={'big'} />
 								<Card.Description style={{ color: "rgb(110, 87, 91)" }}>
 									<p>I built a Connect Four browser game using JavaScript and HTML/CSS.
@@ -129,8 +110,6 @@ export default function Projects({ sophie, setSophie }) {
 									<a target="_blank" rel="noopener noreferrer" href="https://github.com/sophiedamelio/connect_four/"><button>Link to the Repo</button></a>
 									<a target="_blank" rel="noopener noreferrer" href="https://sophiedamelio.github.io/connect_four/"><button>Play Connect Four</button></a>
 								</Card.Description>
-								{/*</div>*/}
-								{/*</div>*/}
 							</Card.Content>
 						</Card>
 					</Grid.Column>
@@ -141,17 +120,12 @@ export default function Projects({ sophie, setSophie }) {
 						<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "90%", height: "100%", marginLeft: "5vh", marginRight: "0vh" }}>
 							<Card.Content>
 								<Card.Header style={{ color: "rgb(110, 87, 91)" }}>Ideas To Go Website</Card.Header>
-								{/*<div class="projectCard">*/}
-								{/*<div class="cardBackground">*/}
-								{/*<h3>Ideas To Go Website</h3>*/}
 								<Image src="https://i.imgur.com/Zgn5lPV.jpg" alt="screenshot of app" size={'big'} />
 								<Card.Description style={{ color: "rgb(110, 87, 91)" }}>
 									<p class="card-text">I developed and designed this website with provided design assets. I organized content, converted graphics and created page layouts. I wrote responsive CSS including section transitions, CTAs, and general styling of elements beyond the built in Squarespace options. </p>
 									<a target="_blank" rel="noopener noreferrer" href='https://github.com/sophiedamelio/itg_css'><button>Link to the Repo</button></a>
 									<a href='/itg_detail'><button>View</button></a>
 								</Card.Description>
-								{/*</div>*/}
-								{/*</div>*/}
 							</Card.Content>
 						</Card>
 					</Grid.Column>
