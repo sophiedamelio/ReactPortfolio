@@ -4,8 +4,8 @@ import './ItgDetail.css'
 
 export default function ItgDetail() {
 	return (
-		<>
+		<div id="itgDetail">
 			<Itg />
-		</>
+		</div>
 	)
 }
