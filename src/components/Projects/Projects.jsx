@@ -60,8 +60,10 @@ export default function Projects({ sophie, setSophie }) {
 									I built a Fullstack Express App with React frontend, that performs full CRUD functionality.
 									I utilized JWT for authentication, MongoDB for storage, Semantic-ui-react for styling, and Heroku for deployment.
 									To view the app use this login: username: demo@demo.com, password: demo
-									<a target="_blank" rel="noopener noreferrer" href="https://github.com/sophiedamelio/project_4"><button>Link to the Repo</button></a>
-									<a target="_blank" rel="noopener noreferrer" href="https://songspace-app.herokuapp.com/"><button>Explore songSpace</button></a>
+									<div style={{ margin: "4vh", marginRight: "1vh", marginLeft: "1vh", width: "100%" }}>
+										<a target="_blank" rel="noopener noreferrer" href="https://github.com/sophiedamelio/project_4" className="projectCta">Link to the Repo</a>
+										<a target="_blank" rel="noopener noreferrer" href="https://songspace-app.herokuapp.com/" className="projectCta">Explore songSpace</a>
+									</div>
 								</Card.Description>
 							</Card.Content>
 						</Card>
