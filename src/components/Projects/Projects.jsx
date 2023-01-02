@@ -59,11 +59,11 @@ export default function Projects({ sophie, setSophie }) {
 								<Card.Description style={{ color: "rgb(110, 87, 91)" }}>
 									I built a Fullstack Express App with React frontend, that performs full CRUD functionality.
 									I utilized JWT for authentication, MongoDB for storage, Semantic-ui-react for styling, and Heroku for deployment.
-									To view the app use this login: username: demo@demo.com, password: demo
-									<div style={{ margin: "4vh", marginRight: "1vh", marginLeft: "1vh", width: "100%" }}>
-										<a target="_blank" rel="noopener noreferrer" href="https://github.com/sophiedamelio/project_4" className="projectCta">Link to the Repo</a>
-										<a target="_blank" rel="noopener noreferrer" href="https://songspace-app.herokuapp.com/" className="projectCta">Explore songSpace</a>
-									</div>
+									Create your own account if you'd like, or view a demo of app using this login: <br></br>
+									username: demo@demo.com <br></br>
+									password: demo <br></br>
+									<a target="_blank" rel="noopener noreferrer" href="https://github.com/sophiedamelio/project_4" className="projectCta" style={{ marginLeft: "0vh" }}>Link to the Repo</a>
+									<a target="_blank" rel="noopener noreferrer" href="https://songspace-app.herokuapp.com/" className="projectCta" style={{ marginLeft: "0vh" }}>Explore songSpace</a>
 								</Card.Description>
 							</Card.Content>
 						</Card>
@@ -77,8 +77,8 @@ export default function Projects({ sophie, setSophie }) {
 								<Card.Description style={{ color: "rgb(110, 87, 91)" }}>
 									<p class="card-text">As a part of a four person team I collaboratively  built a Fullstack Django app with full CRUD functionality.
 										We utilized PostgreSQL for database storage, Django built-in Authentication, and deployment on Heroku.</p>
-									<a target="_blank" rel="noopener noreferrer" href="https://github.com/sophiedamelio/everyJob"><button>Link to the Repo</button></a>
-									<a target="_blank" rel="noopener noreferrer" href="https://sophie-everyjob.herokuapp.com/"><button>Explore everyJob</button></a>
+									<a className="projectCta" target="_blank" rel="noopener noreferrer" href="https://github.com/sophiedamelio/everyJob" style={{ marginLeft: "0vh" }}>Link to the Repo</a>
+									<a className="projectCta" target="_blank" rel="noopener noreferrer" href="https://sophie-everyjob.herokuapp.com/" style={{ marginLeft: "0vh" }}>Explore everyJob</a>
 								</Card.Description>
 							</Card.Content>
 						</Card>
@@ -94,8 +94,8 @@ export default function Projects({ sophie, setSophie }) {
 								<Card.Description style={{ color: "rgb(110, 87, 91)" }}>
 									<p class="card-text">I built a Wishlist app using Express with full CRUD functionality and Google OAuth.
 										MongoDB is used for storage, and it is deployed on Heroku.</p>
-									<a target="_blank" rel="noopener noreferrer" href="https://github.com/sophiedamelio/project_two"><button>Link to the Repo</button></a>
-									<a target="_blank" rel="noopener noreferrer" href="https://sophie-project-two.herokuapp.com/"><button>Get Listing</button></a>
+									<a className="projectCta" target="_blank" rel="noopener noreferrer" href="https://github.com/sophiedamelio/project_two" style={{ marginLeft: "0vh" }}>Link to the Repo</a>
+									<a className="projectCta" target="_blank" rel="noopener noreferrer" href="https://sophie-project-two.herokuapp.com/" style={{ marginLeft: "0vh" }}>Get Listing</a>
 								</Card.Description>
 							</Card.Content>
 						</Card>
@@ -109,8 +109,8 @@ export default function Projects({ sophie, setSophie }) {
 								<Card.Description style={{ color: "rgb(110, 87, 91)" }}>
 									<p>I built a Connect Four browser game using JavaScript and HTML/CSS.
 										I used a Trello board to plan, and deployed via Github Pages. </p>
-									<a target="_blank" rel="noopener noreferrer" href="https://github.com/sophiedamelio/connect_four/"><button>Link to the Repo</button></a>
-									<a target="_blank" rel="noopener noreferrer" href="https://sophiedamelio.github.io/connect_four/"><button>Play Connect Four</button></a>
+									<a className="projectCta" target="_blank" rel="noopener noreferrer" href="https://github.com/sophiedamelio/connect_four/" style={{ marginLeft: "0vh" }}>Link to the Repo</a>
+									<a className="projectCta" target="_blank" rel="noopener noreferrer" href="https://sophiedamelio.github.io/connect_four/" style={{ marginLeft: "0vh" }}>Play Connect Four</a>
 								</Card.Description>
 							</Card.Content>
 						</Card>
@@ -125,8 +125,8 @@ export default function Projects({ sophie, setSophie }) {
 								<Image src="https://i.imgur.com/Zgn5lPV.jpg" alt="screenshot of app" size={'big'} style={{ paddingTop: "2vh", paddingBottom: "2vh" }} />
 								<Card.Description style={{ color: "rgb(110, 87, 91)" }}>
 									<p class="card-text">I developed and designed this website with provided design assets. I organized content, converted graphics and created page layouts. I wrote responsive CSS including section transitions, CTAs, and general styling of elements beyond the built in Squarespace options. </p>
-									<a target="_blank" rel="noopener noreferrer" href='https://github.com/sophiedamelio/itg_css'><button>Link to the Repo</button></a>
-									<a href='/itg_detail'><button>View</button></a>
+									<a className="projectCta" target="_blank" rel="noopener noreferrer" href='https://github.com/sophiedamelio/itg_css' style={{ marginLeft: "0vh" }}>Link to the Repo</a>
+									<a className="projectCta" href='/itg_detail' style={{ marginLeft: "0vh" }}>View</a>
 								</Card.Description>
 							</Card.Content>
 						</Card>
