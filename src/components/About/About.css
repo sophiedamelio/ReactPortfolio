@@ -1,6 +1,6 @@
 /*@import '../../index.css';*/
 
-#aboutTitle {
+.aboutTitles {
 	/*font-family: var(--ivymode);*/
 	font-family: var(--ivymode);
 	color: var(--brown)

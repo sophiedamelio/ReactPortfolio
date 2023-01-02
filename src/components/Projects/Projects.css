@@ -1,6 +1,5 @@
-/*#projects {
-	display: inline-flex;
-}*/
+
+
 
 img {
 	width: 10%;
@@ -10,31 +9,6 @@ img {
 h2 {
 	font-family: var(--ivymode);
 }
-
-/*button {
-    border-radius: 500px;
-    background-color: var(--orange);
-    color: var(--white);
-    padding: 2vh;
-    padding-bottom: 1.5vh;
-    margin-right: 3vh;
-    margin-bottom: none;
-    border: none;
-    font-size: smaller;
-	font-family: var(--brandon);
-}
-
-button:hover {
-	border-radius: 500px;
-    background-color: var(--lt-orange);
-    color: var(--white);
-    padding: 2vh;
-    padding-bottom: 1.5vh;
-    margin-right: 3vh;
-    margin-bottom: none;
-    border: none;
-    font-size: smaller;
-}*/
 
 .projectCta {
 	background-color: var(--white);
