@@ -15,3 +15,45 @@ p {
 a {
 	color: var(--orange);
 }
+
+/*.Accordian {
+	color: var(--brown);
+	font-family: var(--ivymode);
+	background-color: red;
+	font: var(--ivymode)
+}*/
+
+#activetitle {
+	/*color: red;*/
+	/*font-family: var(--ivymode);*/
+	/*background-color: red;*/
+	/*font-size: large;*/
+	/*font-family: "OPTIAmway", sans-serif;*/
+	/*color:aqua*/
+}
+
+#accordianContainer{
+	/*color: red !important;*/
+}
+
+/*.title .active {
+	color: red;
+}*/
+
+.ui.accordion .title:not(.ui) {
+	color: var(--brown) !important;
+	font: var(--brandon) !important;
+	font-size: large !important;
+	border: 1px solid var(--brown);
+	border-radius: 500px;
+	color: var(--brown);
+    font-size: 16px;
+    width: fit-content;
+    text-align: left;
+    padding-left: 1.25vh !important;
+	padding-right: 2vh !important;
+	padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+	margin: 1vh;
+	margin-left: 0vh;
+}
