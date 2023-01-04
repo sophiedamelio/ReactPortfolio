@@ -12,34 +12,6 @@ p {
 	color: var(--brown);
 }
 
-a {
-	color: var(--orange);
-}
-
-/*.Accordian {
-	color: var(--brown);
-	font-family: var(--ivymode);
-	background-color: red;
-	font: var(--ivymode)
-}*/
-
-#activetitle {
-	/*color: red;*/
-	/*font-family: var(--ivymode);*/
-	/*background-color: red;*/
-	/*font-size: large;*/
-	/*font-family: "OPTIAmway", sans-serif;*/
-	/*color:aqua*/
-}
-
-#accordianContainer{
-	/*color: red !important;*/
-}
-
-/*.title .active {
-	color: red;
-}*/
-
 .ui.accordion .title:not(.ui) {
 	color: var(--brown) !important;
 	font: var(--brandon) !important;
