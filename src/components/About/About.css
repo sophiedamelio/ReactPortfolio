@@ -25,6 +25,7 @@
 	margin-top: 3vh;
 	/*float: left;*/
 	/*margin-left: 3vh;*/
+	text-align: center;
 }
 
 .aboutCta:hover {
@@ -41,6 +42,6 @@
     border-radius: 500px;
 	/*float: left;*/
 	margin-top: 3vh;
-
+	text-align: center;
 }
 
