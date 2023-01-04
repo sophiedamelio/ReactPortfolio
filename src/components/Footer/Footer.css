@@ -15,6 +15,7 @@ h2 {
     padding-bottom: 1.5vh;
 	margin: 1vh;
 	margin-left: 0vh;
+	float: left;
 }
 
 .footer-nav-link:hover {
