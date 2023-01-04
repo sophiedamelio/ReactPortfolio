@@ -36,6 +36,8 @@ export default function Projects({ sophie, setSophie }) {
 
 	return (
 		<div>
+			<h2 style={{ marginLeft: "5vh", fontFamily: "OPTIAmway" }}>Projects</h2>
+
 			<Grid doubling columns={2}>
 				{/*<button onClick={() => {
 				if (sophie === "https://i.imgur.com/P5KDK68.png") {
@@ -49,10 +51,9 @@ export default function Projects({ sophie, setSophie }) {
 
 				{/* if listSkills is truthy (has value in this case), list them out as a unordered list. If listSkills is falsey/ does not have value, render nothing */}
 				{/*{listSkills ? <ul>{listSkills}</ul> : null}*/}
-				<h2 style={{ marginLeft: "5vh", fontFamily: "OPTIAmway" }}>Projects</h2>
 				{/*<Grid.Row>*/}
 				<Grid.Column>
-					<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "90%", height: "100%", marginLeft: "5vh", marginRight: "0vh" }}>
+					<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "95%", height: "100%", marginLeft: "5vh", marginRight: "0vh" }}>
 						<Card.Content>
 							<Card.Header style={{ color: "rgb(110, 87, 91)", fontFamily: "OPTIAmway" }}>songSpace Express App</Card.Header>
 							<Image src="https://i.imgur.com/QmloUf2.png" alt="screenshot of app" size={'big'} style={{ paddingTop: "2vh", paddingBottom: "2vh" }} />
@@ -70,7 +71,7 @@ export default function Projects({ sophie, setSophie }) {
 				</Grid.Column>
 
 				<Grid.Column>
-					<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "90%", height: "100%", marginLeft: "0vh", marginRight: "5vh" }}>
+					<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "95%", height: "100%", marginLeft: "0vh", marginRight: "5vh" }}>
 						<Card.Content>
 							<Card.Header style={{ color: "rgb(110, 87, 91)", fontFamily: "OPTIAmway" }}>everyJob Django App</Card.Header>
 							<Image src="https://i.imgur.com/ixSrCHd.png" alt="screenshot of app" size={'big'} style={{ paddingTop: "2vh", paddingBottom: "2vh" }} />
@@ -87,7 +88,7 @@ export default function Projects({ sophie, setSophie }) {
 
 				{/*<Grid.Row>*/}
 				<Grid.Column>
-					<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "90%", height: "100%", marginLeft: "5vh", marginRight: "0vh" }}>
+					<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "95%", height: "100%", marginLeft: "5vh", marginRight: "0vh" }}>
 						<Card.Content>
 							<Card.Header style={{ color: "rgb(110, 87, 91)", fontFamily: "OPTIAmway" }}>Wishlist Express App</Card.Header>
 							<Image src="https://i.imgur.com/DgzgQqh.png" alt="screenshot of app" size={'big'} style={{ paddingTop: "2vh", paddingBottom: "2vh" }} />
@@ -102,7 +103,7 @@ export default function Projects({ sophie, setSophie }) {
 				</Grid.Column>
 
 				<Grid.Column>
-					<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "90%", height: "100%", marginLeft: "0vh", marginRight: "5vh" }}>
+					<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "95%", height: "100%", marginLeft: "0vh", marginRight: "0vh" }}>
 						<Card.Content>
 							<Card.Header style={{ color: "rgb(110, 87, 91)", fontFamily: "OPTIAmway" }}>Connect Four Browser Game</Card.Header>
 							<Image src="https://i.imgur.com/b9LmOUu.png" alt="screenshot of app" size={'big'} style={{ paddingTop: "2vh", paddingBottom: "2vh" }} />
@@ -119,9 +120,22 @@ export default function Projects({ sophie, setSophie }) {
 
 				{/*<Grid.Row>*/}
 				<Grid.Column>
-					<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "90%", height: "100%", marginLeft: "5vh", marginRight: "0vh" }}>
+					<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "95%", height: "100%", marginLeft: "5vh", marginRight: "0vh" }}>
 						<Card.Content>
 							<Card.Header style={{ color: "rgb(110, 87, 91)", fontFamily: "OPTIAmway" }}>Ideas To Go Website</Card.Header>
+							<Image src="https://i.imgur.com/Zgn5lPV.jpg" alt="screenshot of app" size={'big'} style={{ paddingTop: "2vh", paddingBottom: "2vh" }} />
+							<Card.Description style={{ color: "rgb(110, 87, 91)" }}>
+								<p class="card-text">I developed and designed this website with provided design assets. I organized content, converted graphics and created page layouts. I wrote responsive CSS including section transitions, CTAs, and general styling of elements beyond the built in Squarespace options. </p>
+								<a className="projectCta" target="_blank" rel="noopener noreferrer" href='https://github.com/sophiedamelio/itg_css' style={{ marginLeft: "0vh" }}>Link to the Repo</a>
+								<a className="projectCta" href='/itg_detail' style={{ marginLeft: "0vh" }}>View</a>
+							</Card.Description>
+						</Card.Content>
+					</Card>
+				</Grid.Column>
+				<Grid.Column>
+					<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "95%", height: "100%", marginLeft: "0vh", marginRight: "0vh" }}>
+						<Card.Content>
+							<Card.Header style={{ color: "rgb(110, 87, 91)", fontFamily: "OPTIAmway" }}>placeholder</Card.Header>
 							<Image src="https://i.imgur.com/Zgn5lPV.jpg" alt="screenshot of app" size={'big'} style={{ paddingTop: "2vh", paddingBottom: "2vh" }} />
 							<Card.Description style={{ color: "rgb(110, 87, 91)" }}>
 								<p class="card-text">I developed and designed this website with provided design assets. I organized content, converted graphics and created page layouts. I wrote responsive CSS including section transitions, CTAs, and general styling of elements beyond the built in Squarespace options. </p>
