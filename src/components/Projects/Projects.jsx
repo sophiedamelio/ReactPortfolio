@@ -53,7 +53,7 @@ export default function Projects({ sophie, setSophie }) {
 				{/*{listSkills ? <ul>{listSkills}</ul> : null}*/}
 				{/*<Grid.Row>*/}
 				<Grid.Column>
-					<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "95%", height: "100%", marginLeft: "5vh", marginRight: "0vh" }}>
+					<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "95%", height: "100%", marginLeft: "5vh", marginRight: "5vh" }}>
 						<Card.Content>
 							<Card.Header style={{ color: "rgb(110, 87, 91)", fontFamily: "OPTIAmway" }}>songSpace Express App</Card.Header>
 							<Image src="https://i.imgur.com/QmloUf2.png" alt="screenshot of app" size={'big'} style={{ paddingTop: "2vh", paddingBottom: "2vh" }} />
