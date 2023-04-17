@@ -38,7 +38,7 @@ export default function Projects({ sophie, setSophie }) {
 		<div>
 			<h2 style={{ marginLeft: "5vh", fontFamily: "OPTIAmway" }}>Projects</h2>
 
-			<Grid doubling columns={2}>
+			<Grid doubling columns={2} style={{ marginLeft: "3.5vh", marginRight: "3.5vh" }}>
 				{/*<button onClick={() => {
 				if (sophie === "https://i.imgur.com/P5KDK68.png") {
 					setSophie("https://i.imgur.com/tCg6n3O.jpg")
@@ -53,7 +53,7 @@ export default function Projects({ sophie, setSophie }) {
 				{/*{listSkills ? <ul>{listSkills}</ul> : null}*/}
 				{/*<Grid.Row>*/}
 				<Grid.Column>
-					<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "95%", height: "100%", marginLeft: "5vh", marginRight: "5vh" }}>
+					<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "100%", height: "100%" }}>
 						<Card.Content>
 							<Card.Header style={{ color: "rgb(110, 87, 91)", fontFamily: "OPTIAmway" }}>songSpace Express App</Card.Header>
 							<Image src="https://i.imgur.com/QmloUf2.png" alt="screenshot of app" size={'big'} style={{ paddingTop: "2vh", paddingBottom: "2vh" }} />
@@ -71,7 +71,7 @@ export default function Projects({ sophie, setSophie }) {
 				</Grid.Column>
 
 				<Grid.Column>
-					<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "95%", height: "100%", marginLeft: "0vh", marginRight: "5vh" }}>
+					<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "100%", height: "100%" }}>
 						<Card.Content>
 							<Card.Header style={{ color: "rgb(110, 87, 91)", fontFamily: "OPTIAmway" }}>everyJob Django App</Card.Header>
 							<Image src="https://i.imgur.com/ixSrCHd.png" alt="screenshot of app" size={'big'} style={{ paddingTop: "2vh", paddingBottom: "2vh" }} />
@@ -88,7 +88,7 @@ export default function Projects({ sophie, setSophie }) {
 
 				{/*<Grid.Row>*/}
 				<Grid.Column>
-					<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "95%", height: "100%", marginLeft: "5vh", marginRight: "0vh" }}>
+					<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "100%", height: "100%" }}>
 						<Card.Content>
 							<Card.Header style={{ color: "rgb(110, 87, 91)", fontFamily: "OPTIAmway" }}>Wishlist Express App</Card.Header>
 							<Image src="https://i.imgur.com/DgzgQqh.png" alt="screenshot of app" size={'big'} style={{ paddingTop: "2vh", paddingBottom: "2vh" }} />
@@ -103,7 +103,7 @@ export default function Projects({ sophie, setSophie }) {
 				</Grid.Column>
 
 				<Grid.Column>
-					<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "95%", height: "100%", marginLeft: "0vh", marginRight: "0vh" }}>
+					<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "100%", height: "100%" }}>
 						<Card.Content>
 							<Card.Header style={{ color: "rgb(110, 87, 91)", fontFamily: "OPTIAmway" }}>Connect Four Browser Game</Card.Header>
 							<Image src="https://i.imgur.com/b9LmOUu.png" alt="screenshot of app" size={'big'} style={{ paddingTop: "2vh", paddingBottom: "2vh" }} />
@@ -120,7 +120,7 @@ export default function Projects({ sophie, setSophie }) {
 
 				{/*<Grid.Row>*/}
 				<Grid.Column>
-					<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "95%", height: "100%", marginLeft: "5vh", marginRight: "0vh" }}>
+					<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "100%", height: "100%" }}>
 						<Card.Content>
 							<Card.Header style={{ color: "rgb(110, 87, 91)", fontFamily: "OPTIAmway" }}>Ideas To Go Website</Card.Header>
 							<Image src="https://i.imgur.com/Zgn5lPV.jpg" alt="screenshot of app" size={'big'} style={{ paddingTop: "2vh", paddingBottom: "2vh" }} />
@@ -133,7 +133,7 @@ export default function Projects({ sophie, setSophie }) {
 					</Card>
 				</Grid.Column>
 				<Grid.Column>
-					<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "95%", height: "100%", marginLeft: "0vh", marginRight: "0vh" }}>
+					<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "100%", height: "100%" }}>
 						<Card.Content>
 							<Card.Header style={{ color: "rgb(110, 87, 91)", fontFamily: "OPTIAmway" }}>placeholder</Card.Header>
 							<Image src="https://i.imgur.com/Zgn5lPV.jpg" alt="screenshot of app" size={'big'} style={{ paddingTop: "2vh", paddingBottom: "2vh" }} />
