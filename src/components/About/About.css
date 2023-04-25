@@ -5,48 +5,60 @@
 		/*border: 10px solid black;*/
 		/*width: 500px;*/
 		/*height: 500px;*/
-		/*style={{ width: "10%" }}*/
+		width: 10%;
 		display: flex;
 	}
 	.awsImageParent {
-		width: 70%;
-		height: 75%;
+		width: 10%;
+		/*height: 75%;*/
 		display: flex;
+		/*flex-wrap: nowrap;
+		flex-direction: row;*/
 	}
-	.gaImage {
-		/*border: 5px solid red;*/
-		/*margin-bottom: 100vh;*/
-		/*width: 100%;*/
-		/*display: flex;*/
+	
+	.gaImage, .awsImage {
+		margin-bottom: 3vh;
+		width: 100%;
+		height: 80%;
 		flex-wrap: nowrap;
 	}
-	.awsImage {
-		margin-bottom: 10vh;
-		width: 100%;
+	
+	#gridRow {
+		display: flex;
+		flex-wrap: nowrap;
 	}
 }
 
-.gaImageParent {
+#gaImageParent {
 	/*border: 10px solid black;*/
 	/*width: 500px;*/
 	/*height: 500px;*/
 	width: 10%;
 	display: flex;
+	justify-content: flex-end;
 }
 .awsImageParent {
 	width: 10%;
 	/*height: 75%;*/
 	display: flex;
-	flex-wrap: nowrap;
-	flex-direction: row;
+	/*flex-wrap: nowrap;
+	flex-direction: row;*/
 }
 
 .gaImage, .awsImage {
 	margin-bottom: 3vh;
-	width: 100%;
-	height: 80%;
+	width: 10%;
+	height: auto;
+	flex-wrap: nowrap;
+	/*align-items: right;*/
+}
+
+#gridRow {
+	/*background-color: red;*/
+	display: flex;
 	flex-wrap: nowrap;
 }
+
 
 .aboutTitles {
 	/*font-family: var(--ivymode);*/

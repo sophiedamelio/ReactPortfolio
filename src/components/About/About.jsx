@@ -1,5 +1,5 @@
 import './About.css'
-import { Grid, Image } from 'semantic-ui-react'
+import { Grid, GridColumn, Image } from 'semantic-ui-react'
 
 export default function About() {
 	return (
@@ -30,17 +30,21 @@ export default function About() {
 			</Grid>
 			<Grid columns={2}>
 				<h2 className="aboutTitles" style={{ paddingBottom: "1rem" }}>Certifications</h2>
-				<Grid.Row verticalAlign={"middle"} style={{ display: "flex", flexWrap: "nowrap" }}>
-					<Grid.Column className="gaImageParent">
-						<Image className="gaImage" src="https://i.imgur.com/hN7GAid.png" alt="general-assembly-logo" />
-					</Grid.Column>
+				<Grid.Row id="gridRow" verticalAlign={"middle"}>
 					<Grid.Column style={{ width: "90%" }}>
 						<p>Completed a full-stack software engineering immersive program in an intensive, twelve-week, 420+ hour program focused on product development fundamentals, object-oriented programming, MVC frameworks, data modeling, and team collaboration strategies. Developed a portfolio of individual and group projects.</p>
+					</Grid.Column>
+				</Grid.Row>
+				<Grid.Row id="gridRow">
+					<Grid.Column id="gaImageParent" style={{ display: "flex", justifyContent: "flex-end" }}>
+						<Image className="gaImage" src="https://i.imgur.com/hN7GAid.png" alt="general-assembly-logo" />
+					</Grid.Column>
+					<Grid.Column>
 						<a href="https://drive.google.com/file/d/1vFMhW7A67_FyFyjmjjXrg0Gu0-61xG27/view" target="blank" className="aboutCta">Show credential</a>
 					</Grid.Column>
 				</Grid.Row>
-				<Grid.Row verticalAlign={"middle"} style={{ display: "flex", flexWrap: "nowrap" }}>
-					<Grid.Column className="awsImageParent" style={{ width: "10%" }}>
+				<Grid.Row id="gridRow" verticalAlign={"middle"}>
+					<Grid.Column className="awsImageParent">
 						<Image className="awsImage" src="https://i.imgur.com/5feNx95.png" alt="amazon-web-services-certification-image" />
 					</Grid.Column>
 					<Grid.Column style={{ width: "90%" }}>
