@@ -28,10 +28,11 @@ export default function About() {
 					{/*</div>*/}
 				</Grid.Row>
 			</Grid>
-			<Grid columns={2}>
+			<Grid className="certificationsGrid" columns={2}>
 				<h2 className="aboutTitles" style={{ paddingBottom: "1rem" }}>Certifications</h2>
 				<Grid.Row verticalAlign={"middle"} style={{ display: "flex", flexWrap: "nowrap" }}>
-					<Grid.Column className="gaImageParent" style={{ width: "15%" }}>
+					<Grid.Column id="gaImageParent">
+						{/*tyle={{ width: "15%" }}*/}
 						<Image className="gaImage" style={{ width: "100%" }} src="https://i.imgur.com/hN7GAid.png" alt="general-assembly-logo" />
 					</Grid.Column>
 					<Grid.Column style={{ width: "90%" }}>
@@ -40,7 +41,7 @@ export default function About() {
 					</Grid.Column>
 				</Grid.Row>
 				<Grid.Row verticalAlign={"middle"} style={{ display: "flex", flexWrap: "nowrap" }}>
-					<Grid.Column className="awsImageParent" style={{ width: "15%" }}>
+					<Grid.Column id="awsImageParent">
 						<Image className="awsImage" style={{ width: "100%" }} src="https://i.imgur.com/5feNx95.png" alt="amazon-web-services-certification-image" />
 					</Grid.Column>
 					<Grid.Column style={{ width: "90%" }}>

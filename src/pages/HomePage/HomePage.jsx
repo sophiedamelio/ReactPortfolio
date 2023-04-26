@@ -9,6 +9,11 @@ import { useState } from 'react'
 
 import { Grid } from 'semantic-ui-react';
 
+//to do:
+// 1. mobile menu
+// 2. menu anchors desktop
+// 3. itg toggle closed on page load
+
 
 export default function HomePage() {
 

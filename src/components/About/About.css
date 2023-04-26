@@ -25,17 +25,18 @@
 }*/
 
 @media only screen and (max-width: 600px){
-	.gaImageParent {
+	#gaImageParent {
 		/*border: 10px solid black;*/
-		/*width: 500px;*/
+		width: 30%;
 		/*height: 500px;*/
 		/*style={{ width: "10%" }}*/
-		display: flex;
+		/*display: flex;*/
 	}
-	.awsImageParent {
-		width: 70%;
-		height: 75%;
-		display: flex;
+	#awsImageParent {
+		width: 30%;
+		/*background-color: red;*/
+		/*height: 75%;*/
+		/*display: flex;*/
 	}
 	.gaImage {
 		/*border: 5px solid red;*/
@@ -51,80 +52,87 @@
 }
 
 /* 1500px + needs work */
+@media only screen and (min-width: 601px){
 
-.gaImageParent {
-	/*border: 10px solid black;*/
-	/*width: 500px;*/
-	/*height: 500px;*/
-	width: 10%;
-	display: flex;
-	justify-content: flex-end;
-}
-.awsImageParent {
-	width: 10%;
-	/*height: 75%;*/
-	display: flex;
-	/*flex-wrap: nowrap;
-	flex-direction: row;*/
-}
+	#gaImageParent {
+		/*border: 10px solid black;*/
+		/*width: 500px;*/
+		/*height: 500px;*/
+		width: 15%;
+		/*display: flex;*/
+		/*justify-content: flex-end;*/
+	}
 
-.gaImage, .awsImage {
-	margin-bottom: 3vh;
-	width: 10%;
-	height: auto;
-	flex-wrap: nowrap;
-	/*align-items: right;*/
-}
+	#awsImageParent {
+		width: 15%;
+		/*height: 75%;*/
+		/*display: flex;*/
+		/*flex-wrap: nowrap;
+		flex-direction: row;*/
+	}
 
-/*#gridRow {*/
-	/*background-color: red;*/
-	/*display: flex;
-	flex-wrap: nowrap;*/
-/*}*/
-
-
-.aboutTitles {
-	/*font-family: var(--ivymode);*/
-	font-family: var(--ivymode);
-	color: var(--brown)
+	.gaImage, .awsImage {
+		margin-bottom: 3vh;
+		width: 10%;
+		height: auto;
+		flex-wrap: nowrap;
+		/*align-items: right;*/
+	}
 }
 
-#aboutSection {
-	margin: 5vh;
-}
+	/*#gridRow {*/
+		/*background-color: red;*/
+		/*display: flex;
+		flex-wrap: nowrap;*/
+	/*}*/
 
-.aboutCta {
-	color: var(--brown);
-    font-size: 16px;
-	/* need to fix width to be responsive */
-    /*width: 15vh;*/
-    text-align: left;
-    padding-left: 2vh;
-	padding-right: 2vh;
-	padding-top: 1.5vh;
-    padding-bottom: 1.5vh;
-	border: 1px solid var(--brown);
-	border-radius: 500px;
-	margin-top: 3vh;
-	/*float: left;*/
-	/*margin-left: 3vh;*/
-	text-align: center;
-}
 
-.aboutCta:hover {
-	color: var(--white);
-    background-color: var(--brown);
-    font-size: 16px;
-	/* need to fix width to be responsive */
-    /*width: 15vh;*/
-    text-align: left;
-    padding-left: 2vh;
-	padding-right: 2vh;
-	padding-top: 1.5vh;
-    padding-bottom: 1.5vh;
-    border-radius: 500px;
-	/*float: left;*/
-	margin-top: 3vh;
-	text-align: center;
-}
+	.aboutTitles {
+		/*font-family: var(--ivymode);*/
+		font-family: var(--ivymode);
+		color: var(--brown)
+	}
+
+	#aboutSection {
+		margin: 5vh;
+	}
+
+	.aboutCta {
+		color: var(--brown);
+		font-size: 16px;
+		/* need to fix width to be responsive */
+		/*width: 15vh;*/
+		text-align: left;
+		padding-left: 2vh;
+		padding-right: 2vh;
+		padding-top: 1.5vh;
+		padding-bottom: 1.5vh;
+		border: 1px solid var(--brown);
+		border-radius: 500px;
+		margin-top: 3vh;
+		/*float: left;*/
+		/*margin-left: 3vh;*/
+		text-align: center;
+	}
+
+	.aboutCta:hover {
+		color: var(--white);
+		background-color: var(--brown);
+		font-size: 16px;
+		/* need to fix width to be responsive */
+		/*width: 15vh;*/
+		text-align: left;
+		padding-left: 2vh;
+		padding-right: 2vh;
+		padding-top: 1.5vh;
+		padding-bottom: 1.5vh;
+		border-radius: 500px;
+		/*float: left;*/
+		margin-top: 3vh;
+		text-align: center;
+	}
+
+	.certificationsGrid p {
+		margin-bottom: 3vh;
+	}
 
