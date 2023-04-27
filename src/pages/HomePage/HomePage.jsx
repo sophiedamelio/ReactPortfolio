@@ -12,6 +12,7 @@ import { Grid } from 'semantic-ui-react';
 //to do:
 // 1. mobile menu
 // 2. menu anchors desktop
+// 3. background color full width on mobile and desktop
 
 
 export default function HomePage() {

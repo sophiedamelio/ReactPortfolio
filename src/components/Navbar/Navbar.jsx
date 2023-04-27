@@ -75,11 +75,10 @@ export default function Navbar() {
 
 	//const { activeItem } = this.state
 
-	return (
-		//<Header id="all-nav-links">
-		//<>
-		<Box id="menu">
-			<AppBar position="static" id="appBar" style={{ fontFamily: "OPTIAmway" }}>
+	//<Header id="all-nav-links">
+	//<>
+	//<Box id="menu">
+	{/*<AppBar position="static" id="appBar" style={{ fontFamily: "OPTIAmway" }}>
 				<Tabs
 					value={value}
 					onChange={handleChange}
@@ -93,47 +92,47 @@ export default function Navbar() {
 					<Tab label="Projects" {...a11yProps(2)} />
 					<Tab label="Contact" {...a11yProps(3)} />
 				</Tabs>
-			</AppBar>
-			{/*<SwipeableViews
+			</AppBar>*/}
+	{/*<SwipeableViews
 						axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
 						index={value}
 						onChangeIndex={handleChangeIndex}
 					>*/}
-			<TabPanel value={value} index={0} dir={theme.direction}>
-				About
-			</TabPanel>
-			<TabPanel value={value} index={1} dir={theme.direction}>
-				Certifications
-			</TabPanel>
-			<TabPanel value={value} index={2} dir={theme.direction}>
-				Projects
-			</TabPanel>
-			<TabPanel value={value} index={3} dir={theme.direction}>
-				Contact
-			</TabPanel>
-			{/*</SwipeableViews>*/}
-		</Box>
-		//<Menu tabular>
-		//	<Menu.Item
-		//		name='bio'
-		//		active={activeItem === 'bio'}
-		//		onClick={handleItemClick}
-		//	/>
-		//	<Menu.Item
-		//		name='photos'
-		//		active={activeItem === 'photos'}
-		//		onClick={() => { handleItemClick(); }}
-		//	/>
-		//</Menu>
-		//<div id="all-nav-links">
-		//	<a href="/portfolio" id="title">Sophie Damelio</a>
-		//	<div id="menu-nav-links">
-		//		<a href="/about" className="nav-link">About</a>
-		//		<a href="/projects" className="nav-link">Projects</a>
-		//		<a href="/contact" className="nav-link">Contact</a>
-		//	</div>
-		//</div>*/}
-		//</>
-		//{/*</Header>*/ }
+	//	<TabPanel value={value} index={0} dir={theme.direction}>
+	//		About
+	//	</TabPanel>
+	//	<TabPanel value={value} index={1} dir={theme.direction}>
+	//		Certifications
+	//	</TabPanel>
+	//	<TabPanel value={value} index={2} dir={theme.direction}>
+	//		Projects
+	//	</TabPanel>
+	//	<TabPanel value={value} index={3} dir={theme.direction}>
+	//		Contact
+	//	</TabPanel>
+	//	{/*</SwipeableViews>*/}
+	//</Box>
+	//<Menu tabular>
+	//	<Menu.Item
+	//		name='bio'
+	//		active={activeItem === 'bio'}
+	//		onClick={handleItemClick}
+	//	/>
+	//	<Menu.Item
+	//		name='photos'
+	//		active={activeItem === 'photos'}
+	//		onClick={() => { handleItemClick(); }}
+	//	/>
+	//</Menu>
+
+	return (
+		<div id="all-nav-links">
+			<a href="/portfolio" id="title">Sophie Damelio</a>
+			<div id="menu-nav-links">
+				<a href="/about" className="nav-link">About</a>
+				<a href="/projects" className="nav-link">Projects</a>
+				<a href="/contact" className="nav-link">Contact</a>
+			</div>
+		</div>
 	)
 }
