@@ -1,11 +1,13 @@
 #itgDetail {
 	background-color: var(--white);
+	display: flex;
+	flex-wrap: wrap;
 }
 
 #title {
 	display: inline;
-	padding: 30px;
-	padding-left: 1rem;
+	padding: 5vh;
+	padding-bottom: .5vh;
 	float: left;
 	font-size: 30px;
 	color: var(--orange);
