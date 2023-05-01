@@ -25,6 +25,15 @@
 }*/
 
 @media only screen and (max-width: 600px){
+	#aboutTitle {
+		display: none;
+	}
+
+	#certifications {
+		/*background-color: red;*/
+		padding-top: 7vh;
+	}
+
 	#gaImageParent {
 		/*border: 10px solid black;*/
 		width: 30%;

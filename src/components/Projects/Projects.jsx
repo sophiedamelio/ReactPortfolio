@@ -35,7 +35,7 @@ export default function Projects({ sophie, setSophie }) {
 
 
 	return (
-		<div>
+		<section id="projects">
 			<h2 style={{ marginLeft: "5vh", fontFamily: "OPTIAmway" }}>Projects</h2>
 
 			<Grid doubling columns={2} style={{ marginLeft: "3.5vh", marginRight: "3.5vh" }}>
@@ -147,6 +147,6 @@ export default function Projects({ sophie, setSophie }) {
 				</Grid.Column>
 				{/*</Grid.Row>*/}
 			</Grid>
-		</div>
+		</section>
 	)
 }

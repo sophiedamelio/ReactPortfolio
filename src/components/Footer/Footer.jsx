@@ -5,7 +5,7 @@ import { Grid } from "semantic-ui-react"
 
 export default function Footer() {
 	return (
-		<>
+		<section id="contact">
 			<Grid columns={1} style={{ margin: "1rem", padding: "3vh", width: "100%" }}>
 				<Grid.Row>
 					<Grid.Column>
@@ -22,6 +22,6 @@ export default function Footer() {
 					</Grid.Column>
 				</Grid.Row>
 			</Grid>
-		</>
+		</section>
 	)
 }

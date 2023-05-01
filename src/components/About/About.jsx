@@ -8,7 +8,7 @@ export default function About() {
 				<meta name="viewport" content="width=device-width" />
 			</head>
 			<Grid columns={2}>
-				<h2 className="aboutTitles">About</h2>
+				<h2 className="aboutTitles" id="aboutTitle">About</h2>
 				<Grid.Row>
 					{/*<div>*/}
 					{/*<div>*/}
@@ -29,7 +29,7 @@ export default function About() {
 				</Grid.Row>
 			</Grid>
 			<Grid className="certificationsGrid" columns={2}>
-				<h2 className="aboutTitles" style={{ paddingBottom: "1rem" }}>Certifications</h2>
+				<h2 className="aboutTitles" id="certifications" style={{ paddingBottom: "1rem" }}>Certifications</h2>
 				<Grid.Row verticalAlign={"middle"} style={{ display: "flex", flexWrap: "nowrap" }}>
 					<Grid.Column id="gaImageParent">
 						{/*tyle={{ width: "15%" }}*/}
