@@ -1,58 +1,15 @@
 import "./Projects.css"
-import { useEffect, useState } from "react"
 import { Grid, Card, Image } from "semantic-ui-react"
 import { Link } from "react-router-dom"
-//import "../../index.css"
 
 
-export default function Projects({ sophie, setSophie }) {
-
-	//const [sophie, setSophie] = useState("sophie")
-
-	//useEffect(() => {
-	//	console.log('value of sophie changed, useEffect envoked')
-	//	console.log(sophie, "<---- updated value of sophie")
-
-	//	return () => console.log('component unmounted')
-
-	//}, [sophie])
-
-
-	//const skills = [
-	//	{ skill: "Manipulate the DOM", id: 1 },
-	//	{ skill: "Create responsive CSS", id: 2 },
-	//	{ skill: "Read errors", id: 3 },
-	//	{ skill: "Ask questions frequently", id: 4 },
-	//	{ skill: "Read and utilize documentation", id: 5 },
-	//];
-
-	//const listSkills = skills.map((skill, index) =>
-	//	<li key={skill.id}>
-	//		{skill.skill}
-	//	</li>
-	//);
-
-	//const listSkills = null;
-
+export default function Projects() {
 
 	return (
 		<section id="projects">
 			<h2 style={{ marginLeft: "5vh", fontFamily: "OPTIAmway" }}>Projects</h2>
 
 			<Grid doubling columns={2} style={{ marginLeft: "3.5vh", marginRight: "3.5vh" }}>
-				{/*<button onClick={() => {
-				if (sophie === "https://i.imgur.com/P5KDK68.png") {
-					setSophie("https://i.imgur.com/tCg6n3O.jpg")
-				} else {
-					setSophie("https://i.imgur.com/P5KDK68.png")
-				}
-			}}
-			>CHANGE SOPHIE'S VALUE</button>
-			<img src={sophie} />*/}
-
-				{/* if listSkills is truthy (has value in this case), list them out as a unordered list. If listSkills is falsey/ does not have value, render nothing */}
-				{/*{listSkills ? <ul>{listSkills}</ul> : null}*/}
-				{/*<Grid.Row>*/}
 				<Grid.Column>
 					<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "100%", height: "100%" }}>
 						<Card.Content>
@@ -85,9 +42,7 @@ export default function Projects({ sophie, setSophie }) {
 						</Card.Content>
 					</Card>
 				</Grid.Column>
-				{/*</Grid.Row>*/}
 
-				{/*<Grid.Row>*/}
 				<Grid.Column>
 					<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "100%", height: "100%" }}>
 						<Card.Content>
@@ -117,9 +72,7 @@ export default function Projects({ sophie, setSophie }) {
 						</Card.Content>
 					</Card>
 				</Grid.Column>
-				{/*</Grid.Row>*/}
 
-				{/*<Grid.Row>*/}
 				<Grid.Column>
 					<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "100%", height: "100%" }}>
 						<Card.Content>
@@ -133,6 +86,7 @@ export default function Projects({ sophie, setSophie }) {
 						</Card.Content>
 					</Card>
 				</Grid.Column>
+
 				<Grid.Column>
 					<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "100%", height: "100%" }}>
 						<Card.Content>
@@ -146,7 +100,6 @@ export default function Projects({ sophie, setSophie }) {
 						</Card.Content>
 					</Card>
 				</Grid.Column>
-				{/*</Grid.Row>*/}
 			</Grid>
 		</section>
 	)

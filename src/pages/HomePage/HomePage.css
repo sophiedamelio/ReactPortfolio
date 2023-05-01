@@ -1,9 +1,3 @@
-/*.components {
-	display: flex;
-	flex-direction: column;
-	background-color: black;
-}*/
-
 div {
 	font-family: var(--brandon);
 	color: var(--brown);

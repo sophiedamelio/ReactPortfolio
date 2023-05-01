@@ -1,29 +1,13 @@
 import { Grid, Image, Accordion, Icon } from 'semantic-ui-react'
-//import React, { useState } from 'react';
 import './Itg.css'
 
 export default function Itg() {
-
-	////const [activeIndex, setActiveIndex] = useState(0)
-	//state = { activeIndex: 0 }
-
-	//let handleClick = (e, titleProps) => {
-	//	const { index } = titleProps
-	//	const { activeIndex } = this.state
-	//	const newIndex = activeIndex === index ? -1 : index
-
-	//	this.setState({ activeIndex: newIndex })
-	//}
-
-	//const { activeIndex } = this.state
 
 	const panels = [
 		{
 			key: 'view-more-pages',
 			title:
-				//<div style={{ fontFamily: "OPTIAmway" }}>
 				'View more pages',
-			//</div>,
 			content: [
 				<Grid doubling columns={5}>
 					{/* add breakpoint for mobile, so only one image shows per row */}
@@ -90,9 +74,6 @@ export default function Itg() {
 			]
 		}
 	]
-
-	//  const AccordionExampleStandardShorthand = () => (
-	//  )
 
 	return (
 

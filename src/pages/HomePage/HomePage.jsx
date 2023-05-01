@@ -1,7 +1,4 @@
 import React from 'react';
-//import ReactDOM from 'react-dom';
-//import AnchorLink from 'react-anchor-link-smooth-scroll';
-
 
 import Navbar from '../../components/Navbar/Navbar'
 import Projects from '../../components/Projects/Projects'
@@ -9,8 +6,6 @@ import Footer from '../../components/Footer/Footer'
 import About from '../../components/About/About'
 
 import './HomePage.css';
-
-import { useState } from 'react'
 
 import { Grid } from 'semantic-ui-react';
 
@@ -22,54 +17,21 @@ import { Grid } from 'semantic-ui-react';
 // 4. better font and weight for accessibility
 // 5. ITG detail page for mobile
 // 6. ITG detail links to bottom of page, make it go to top
+// 7. {/* add breakpoint for mobile, so only one image shows per row */}
+// 8. /* 1500px + needs work on just about everything, itg and home
+
 
 
 export default function HomePage() {
 
-	//const SmoothScroll = () => (
-	//	<div>
-	//		<AnchorLink href='#things'>Things</AnchorLink>
-	//		<AnchorLink href='#stuff'>Stuff</AnchorLink>
-
-	//		<section id='things'>
-	//			<h2>Things</h2>
-	//		</section>
-	//		<section id='stuff'>
-	//			<h2>Stuff</h2>
-	//		</section>
-
-	//		<Grid>
-	//			<Navbar className="components" />
-	//			{/*<AnchorLink href='#projects'>Projects</AnchorLink>*/}
-	//			<About classname="components" />
-	//			<Projects className="components" sophie={sophie} setSophie={setSophie} />
-	//			<Footer classname="components" />
-	//		</Grid>
-
-	//	</div>
-	//)
-
-	//ReactDOM.render(
-	//	<SmoothScroll />,
-	//	document.getElementById('content')
-	//)
-
-
-	const [sophie, setSophie] = useState("https://i.imgur.com/P5KDK68.png")
-
 	return (
 		<div id="homePage">
-			{/*<SmoothScroll id="content" />*/}
 			<Grid>
 				<Navbar className="components" />
 				<About classname="components" />
-				<Projects className="components" sophie={sophie} setSophie={setSophie} />
+				<Projects className="components" />
 				<Footer classname="components" />
 			</Grid>
 		</div>
 	)
-	//ReactDOM.render(
-	//	<SmoothScroll />,
-	//	document.getElementById('content')
-	//)
 }
