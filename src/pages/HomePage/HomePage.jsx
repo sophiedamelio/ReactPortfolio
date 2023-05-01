@@ -20,6 +20,8 @@ import { Grid } from 'semantic-ui-react';
 // 2. menu anchors desktop
 // 3. background color full width on mobile and desktop
 // 4. better font and weight for accessibility
+// 5. ITG detail page for mobile
+// 6. ITG detail links to bottom of page, make it go to top
 
 
 export default function HomePage() {

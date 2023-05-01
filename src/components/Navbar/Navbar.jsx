@@ -39,7 +39,7 @@ export default function Navbar() {
 
 	return (
 		<div id="all-nav-links">
-			<a href="/portfolio" id="title">Sophie Damelio</a>
+			<a href="/" id="title">Sophie Damelio</a>
 			<div id="menu-nav-links">
 				<SmoothScroll id="content" />
 				{/*<a href="/about" className="nav-link">About</a>
