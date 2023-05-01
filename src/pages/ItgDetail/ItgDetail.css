@@ -6,9 +6,11 @@
 
 #title {
 	display: inline;
-	padding: 5vh;
-	padding-bottom: .5vh;
-	float: left;
+	/*padding: 5vh;*/
+	/*padding-bottom: .5vh;*/
+	margin-right: 8vh;
+	margin-left: 1.5vh !important;
+	/*float: left;*/
 	font-size: 30px;
 	color: var(--orange);
 	background-color: none;
@@ -16,5 +18,25 @@
 
 .all-nav-links {
 	font-family: var(--ivymode);
-	padding-bottom: 3vh !important;
+	/*padding-bottom: 3vh !important;*/
+}
+
+#backButton {
+	/*background-color: red;*/
+	color: var(--orange);
+	margin-left: 8vh;
+	margin-top: 6vh;
+	margin-right: 0vh !important;
+	/*padding-right: 0vh !important;*/
+}
+
+#menu {
+	display: flex;
+	align-items: flex-start;
+}
+
+@media only screen and (min-width: 600px) {
+	#menu {
+		align-items: center;
+	}
 }
