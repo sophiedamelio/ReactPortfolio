@@ -1,5 +1,7 @@
 import './App.css';
 
+import { Routes, Route } from "react-router-dom";
+
 import HomePage from '../HomePage/HomePage'
 import ItgDetail from '../ItgDetail/ItgDetail';
 
@@ -22,8 +24,10 @@ function App() {
     //  </header>
     //</div>
     <>
-      <HomePage />
-      <ItgDetail />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/FreelanceDetail" element={<ItgDetail />} />
+      </Routes>
     </>
   );
 }

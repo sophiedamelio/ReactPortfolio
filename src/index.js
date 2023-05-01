@@ -6,11 +6,12 @@ import reportWebVitals from './reportWebVitals';
 import './fonts/OPTIAmway.otf'
 import 'semantic-ui-css/semantic.min.css'
 
+import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.render(
-  <React.StrictMode>
+  <BrowserRouter>
     <App />
-  </React.StrictMode>,
+  </BrowserRouter>,
   document.getElementById('root')
 );
 

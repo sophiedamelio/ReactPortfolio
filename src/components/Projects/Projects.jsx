@@ -1,6 +1,7 @@
 import "./Projects.css"
 import { useEffect, useState } from "react"
 import { Grid, Card, Image } from "semantic-ui-react"
+import { Link } from "react-router-dom"
 //import "../../index.css"
 
 
@@ -127,7 +128,7 @@ export default function Projects({ sophie, setSophie }) {
 							<Card.Description style={{ color: "rgb(110, 87, 91)" }}>
 								<p class="card-text">I developed and designed this website with provided design assets. I organized content, converted graphics and created page layouts. I wrote responsive CSS including section transitions, CTAs, and general styling of elements beyond the built in Squarespace options. </p>
 								<a className="projectCta" target="_blank" rel="noopener noreferrer" href='https://github.com/sophiedamelio/itg_css' style={{ marginLeft: "0vh" }}>Link to the Repo</a>
-								<a className="projectCta" href='/itg_detail' style={{ marginLeft: "0vh" }}>View</a>
+								<Link className="projectCta" to='FreelanceDetail' style={{ marginLeft: "0vh" }}>View</Link>
 							</Card.Description>
 						</Card.Content>
 					</Card>
