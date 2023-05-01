@@ -28,8 +28,10 @@
 
 	#title {
 		display: inline;
-		padding: 30px;
-		padding-left: 1rem;
+		/*padding: 30px;*/
+		margin: 8vh;
+		margin-bottom: 2vh;
+		padding-left: 0vh !important;
 		float: left;
 		font-size: 30px;
 		color: var(--orange);
@@ -88,9 +90,11 @@
 	}
 
 	#title {
+		font-family: var(--ivymode);
 		display: inline;
-		padding: 30px;
-		padding-left: 1rem;
+		margin: 8vh;
+		margin-bottom: 2vh;
+		padding-left: 0vh !important;
 		float: left;
 		font-size: 30px;
 		color: var(--orange);

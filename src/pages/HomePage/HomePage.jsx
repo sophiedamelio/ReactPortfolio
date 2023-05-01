@@ -19,6 +19,7 @@ import { Grid } from 'semantic-ui-react';
 // 6. ITG detail links to bottom of page, make it go to top
 // 7. {/* add breakpoint for mobile, so only one image shows per row */}
 // 8. /* 1500px + needs work on just about everything, itg and home
+// 9. add back button on itg detail page routing home
 
 
 

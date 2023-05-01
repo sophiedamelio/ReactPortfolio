@@ -29,3 +29,8 @@ h2 {
     border-radius: 500px;
 }
 
+#contact {
+	margin: 8vh;
+	margin-bottom: 2vh;
+	padding: 0vh !important;
+}

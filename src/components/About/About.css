@@ -47,7 +47,9 @@
 	}
 
 	#aboutSection {
-		margin: 5vh;
+		margin: 8vh;
+		margin-bottom: 2vh;
+		padding-left: 0vh !important;
 	}
 
 	.aboutCta {
