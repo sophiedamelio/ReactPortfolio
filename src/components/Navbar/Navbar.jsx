@@ -12,13 +12,13 @@ export default function Navbar() {
 	)
 
 	return (
-		<>
+		<div id="navSection">
 			<a href="/" id="title">Sophie Damelio</a>
 			<div id="all-nav-links">
 				<div id="menu-nav-links">
 					<SmoothScroll id="content" />
 				</div>
 			</div>
-		</>
+		</div>
 	)
 }

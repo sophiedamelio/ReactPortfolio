@@ -16,5 +16,5 @@
 
 .all-nav-links {
 	font-family: var(--ivymode);
-	padding: 5vh;
+	padding-bottom: 3vh !important;
 }
