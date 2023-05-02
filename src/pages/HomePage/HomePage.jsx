@@ -11,7 +11,6 @@ import { Grid } from 'semantic-ui-react';
 
 //to do:
 
-// 3. background color full width on mobile and desktop
 // 4. better font and weight for accessibility
 // 6. ITG detail links to bottom of page, make it go to top
 
