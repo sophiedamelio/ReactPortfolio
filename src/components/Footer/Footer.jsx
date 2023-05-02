@@ -7,7 +7,7 @@ export default function Footer() {
 			<Grid columns={1}>
 				<Grid.Row>
 					<Grid.Column>
-						<h2 style={{ fontFamily: "OPTIAmway" }}>Contact</h2>
+						<h2 style={{ fontFamily: "Merriweather" }}>Contact</h2>
 						<p>Email: sophiedamelio@gmail.com</p>
 						<div style={{ marginTop: "3.5vh" }}>
 							<a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/sophiedamelio/" className="footer-nav-link">LinkedIn</a>

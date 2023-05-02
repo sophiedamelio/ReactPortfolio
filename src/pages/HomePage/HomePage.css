@@ -1,8 +1,8 @@
 div {
-	font-family: var(--brandon);
+	/*font-family: var(--brandon);*/
+	font-family: 'Montserrat', sans-serif;
 	color: var(--brown);
-	font-weight: 80;
-	padding-bottom: 6vh;
+	/*font-weight: 90;*/
 }
 
 /*#homePage {
