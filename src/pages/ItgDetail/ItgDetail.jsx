@@ -9,9 +9,9 @@ import { Icon } from "semantic-ui-react"
 export default function ItgDetail() {
 	return (
 		<div id="itgDetail">
-			<div id="menu">
+			<div id="itgMenu">
 				<a href="/"><Icon name="arrow left" size="big" id="backButton" /></a>
-				<a href="/" id="title" className="all-nav-links">Sophie Damelio</a>
+				<a href="/" id="siteTitle" className="all-nav-links">Sophie Damelio</a>
 			</div>
 			<Itg />
 			<Footer />
