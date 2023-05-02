@@ -13,71 +13,71 @@ export default function Itg() {
 					{/* add breakpoint for mobile, so only one image shows per row */}
 					<Grid.Row>
 						<Grid.Column id="gridColumn">
-							<Image src="https://i.imgur.com/6dGoGb1.jpg" alt="Third slide" size={"medium"} />
+							<Image id="img" src="https://i.imgur.com/6dGoGb1.jpg" alt="Third slide" size={"medium"} />
 						</Grid.Column>
 						<Grid.Column id="gridColumn">
-							<Image src="https://i.imgur.com/doAsgK1.jpg" alt="Third slide" size={"medium"} />
-						</Grid.Column>
-					</Grid.Row>
-					<Grid.Row>
-						<Grid.Column id="gridColumn">
-							<Image src="https://i.imgur.com/2MvQylD.jpg" alt="Third slide" size={"medium"} />
-						</Grid.Column>
-						<Grid.Column id="gridColumn">
-							<Image src="https://i.imgur.com/OeLb6Up.jpg" alt="Third slide" size={"medium"} />
+							<Image id="img" src="https://i.imgur.com/doAsgK1.jpg" alt="Third slide" size={"medium"} />
 						</Grid.Column>
 					</Grid.Row>
 					<Grid.Row>
 						<Grid.Column id="gridColumn">
-							<Image src="https://i.imgur.com/AfXUQ8E.jpg" alt="Third slide" size={"medium"} />
+							<Image id="img" src="https://i.imgur.com/2MvQylD.jpg" alt="Third slide" size={"medium"} />
 						</Grid.Column>
 						<Grid.Column id="gridColumn">
-							<Image src="https://i.imgur.com/CB5NQa3.jpg" alt="Third slide" size={"medium"} />
-						</Grid.Column>
-					</Grid.Row>
-					<Grid.Row>
-						<Grid.Column id="gridColumn">
-							<Image src="https://i.imgur.com/9mBHFKt.jpg" alt="Third slide" size={"medium"} />
-						</Grid.Column>
-						<Grid.Column id="gridColumn">
-							<Image src="https://i.imgur.com/lAqkpka.jpg" alt="Third slide" size={"medium"} />
+							<Image id="img" src="https://i.imgur.com/OeLb6Up.jpg" alt="Third slide" size={"medium"} />
 						</Grid.Column>
 					</Grid.Row>
 					<Grid.Row>
 						<Grid.Column id="gridColumn">
-							<Image src="https://i.imgur.com/lbs2mEB.jpg" alt="Third slide" size={"medium"} />
+							<Image id="img" src="https://i.imgur.com/AfXUQ8E.jpg" alt="Third slide" size={"medium"} />
 						</Grid.Column>
 						<Grid.Column id="gridColumn">
-							<Image src="https://i.imgur.com/lmzsSwF.jpg" alt="Third slide" size={"medium"} />
-						</Grid.Column>
-					</Grid.Row>
-					<Grid.Row>
-						<Grid.Column id="gridColumn">
-							<Image src="https://i.imgur.com/pNELKQJ.jpg" alt="Third slide" size={"medium"} />
-						</Grid.Column>
-						<Grid.Column id="gridColumn">
-							<Image src="https://i.imgur.com/e6QPKi8.png" alt="Third slide" size={"medium"} />
+							<Image id="img" src="https://i.imgur.com/CB5NQa3.jpg" alt="Third slide" size={"medium"} />
 						</Grid.Column>
 					</Grid.Row>
 					<Grid.Row>
 						<Grid.Column id="gridColumn">
-							<Image src="https://i.imgur.com/yxWTgsT.jpg" alt="Third slide" size={"medium"} />
+							<Image id="img" src="https://i.imgur.com/9mBHFKt.jpg" alt="Third slide" size={"medium"} />
 						</Grid.Column>
 						<Grid.Column id="gridColumn">
-							<Image src="https://i.imgur.com/ifdhqwH.jpg" alt="Third slide" size={"medium"} />
-						</Grid.Column>
-					</Grid.Row>
-					<Grid.Row>
-						<Grid.Column id="gridColumn">
-							<Image src="https://i.imgur.com/uJgpJQb.jpg" alt="Third slide" size={"medium"} />
-						</Grid.Column>
-						<Grid.Column id="gridColumn">
-							<Image src="https://i.imgur.com/czgMYjj.jpg" alt="Third slide" size={"medium"} />
+							<Image id="img" src="https://i.imgur.com/lAqkpka.jpg" alt="Third slide" size={"medium"} />
 						</Grid.Column>
 					</Grid.Row>
 					<Grid.Row>
 						<Grid.Column id="gridColumn">
-							<Image src="https://i.imgur.com/QreTmcf.jpg" alt="Third slide" size={"medium"} />
+							<Image id="img" src="https://i.imgur.com/lbs2mEB.jpg" alt="Third slide" size={"medium"} />
+						</Grid.Column>
+						<Grid.Column id="gridColumn">
+							<Image id="img" src="https://i.imgur.com/lmzsSwF.jpg" alt="Third slide" size={"medium"} />
+						</Grid.Column>
+					</Grid.Row>
+					<Grid.Row>
+						<Grid.Column id="gridColumn">
+							<Image id="img" src="https://i.imgur.com/pNELKQJ.jpg" alt="Third slide" size={"medium"} />
+						</Grid.Column>
+						<Grid.Column id="gridColumn">
+							<Image id="img" src="https://i.imgur.com/e6QPKi8.png" alt="Third slide" size={"medium"} />
+						</Grid.Column>
+					</Grid.Row>
+					<Grid.Row>
+						<Grid.Column id="gridColumn">
+							<Image id="img" src="https://i.imgur.com/yxWTgsT.jpg" alt="Third slide" size={"medium"} />
+						</Grid.Column>
+						<Grid.Column id="gridColumn">
+							<Image id="img" src="https://i.imgur.com/ifdhqwH.jpg" alt="Third slide" size={"medium"} />
+						</Grid.Column>
+					</Grid.Row>
+					<Grid.Row>
+						<Grid.Column id="gridColumn">
+							<Image id="img" src="https://i.imgur.com/uJgpJQb.jpg" alt="Third slide" size={"medium"} />
+						</Grid.Column>
+						<Grid.Column id="gridColumn">
+							<Image id="img" src="https://i.imgur.com/czgMYjj.jpg" alt="Third slide" size={"medium"} />
+						</Grid.Column>
+					</Grid.Row>
+					<Grid.Row>
+						<Grid.Column id="gridColumn">
+							<Image id="img" src="https://i.imgur.com/QreTmcf.jpg" alt="Third slide" size={"medium"} />
 						</Grid.Column>
 					</Grid.Row>
 				</Grid >
@@ -94,17 +94,17 @@ export default function Itg() {
 			{/* add breakpoint for mobile, so only one image shows per row */}
 			<Grid id="photoGrid" doubling columns={2}>
 				<Grid.Row>
-					<Grid.Column id="gridColumn">
-						<Image src="https://i.imgur.com/gK6tkHZ.jpg" alt="First slide" size={"medium"} />
+					<Grid.Column id="previewGrid">
+						<Image id="img" src="https://i.imgur.com/gK6tkHZ.jpg" alt="First slide" size={"medium"} />
 					</Grid.Column>
-					<Grid.Column id="gridColumn">
-						<Image src="https://i.imgur.com/UIfSHC1.jpg" alt="Second slide" size={"medium"} />
+					<Grid.Column id="previewGrid">
+						<Image id="img" src="https://i.imgur.com/UIfSHC1.jpg" alt="Second slide" size={"medium"} />
 					</Grid.Column>
-					<Grid.Column id="gridColumn">
-						<Image src="https://i.imgur.com/A9rRfgg.jpg" alt="Third slide" size={"medium"} />
+					<Grid.Column id="previewGrid">
+						<Image id="img" src="https://i.imgur.com/A9rRfgg.jpg" alt="Third slide" size={"medium"} />
 					</Grid.Column>
-					<Grid.Column id="gridColumn">
-						<Image src="https://i.imgur.com/1z0NPZI.jpg" alt="Third slide" size={"medium"} />
+					<Grid.Column id="previewGrid">
+						<Image id="img" src="https://i.imgur.com/1z0NPZI.jpg" alt="Third slide" size={"medium"} />
 					</Grid.Column>
 				</Grid.Row>
 

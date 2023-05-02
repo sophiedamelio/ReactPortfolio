@@ -10,7 +10,7 @@ import './HomePage.css';
 import { Grid } from 'semantic-ui-react';
 
 //to do:
-// 2. itg detail page, vertical space between 4 preview photos
+
 // 3. background color full width on mobile and desktop
 // 4. better font and weight for accessibility
 // 6. ITG detail links to bottom of page, make it go to top
@@ -19,6 +19,7 @@ import { Grid } from 'semantic-ui-react';
 // (desktop navbar - make a real grid if possible, make sure it doesnt mess up mobile)
 
 
+// icebox - sticky button lowe rright corner (?) for back to top
 
 export default function HomePage() {
 

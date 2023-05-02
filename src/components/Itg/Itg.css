@@ -1,3 +1,22 @@
+/* itg rgb(11, 35, 53)*/
+
+
+@media only screen and (min-width: 600px) {
+	#photoGrid {
+		margin-right: 8vh;
+		margin-left: 8vh;
+	}
+}
+
+@media only screen and (min-width: 1px) and (max-width: 991px){
+	#previewGrid {
+		margin-top: 0px !important;
+		margin-bottom: 0px !important;
+		display: flex;
+		justify-content: center;
+	}
+}
+
 h2 {
 	font-family: var(--ivymode);
 	color: var(--brown);
@@ -38,14 +57,19 @@ p {
 	justify-content: center;
 }
 
+#previewGrid {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	display: flex;
+	justify-content: center;
+}
+
 /*#photoGrid {
 	margin-right: "8vh";
 	margin-left: "8vh;
 }*/
 
-@media only screen and (min-width: 600px) {
-	#photoGrid {
-		margin-right: 8vh;
-		margin-left: 8vh;
-	}
+#img {
+	border: 1px solid rgb(11, 35, 53);
+	/*background-color: red;*/
 }
