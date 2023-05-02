@@ -10,16 +10,13 @@ import './HomePage.css';
 import { Grid } from 'semantic-ui-react';
 
 //to do:
-// 1. mobile menu
-// nav links need to be aligned on left with title
-// 2. menu anchors desktop
+// 2. itg detail page, vertical space between 4 preview photos
 // 3. background color full width on mobile and desktop
 // 4. better font and weight for accessibility
-// 5. ITG detail page for mobile
 // 6. ITG detail links to bottom of page, make it go to top
-// 7. {/* add breakpoint for mobile, so only one image shows per row */}
-// 8. /* 1500px + needs work on just about everything, itg and home
-// 9. add back button on itg detail page routing home
+
+// 8. /* 1500px + needs work on just about everything, itg and home. Esp navbar 
+// (desktop navbar - make a real grid if possible, make sure it doesnt mess up mobile)
 
 
 

@@ -32,3 +32,20 @@ p {
 	margin-top: 2vh;
 	padding: 0vh !important;
 }
+
+#gridColumn {
+	display: flex;
+	justify-content: center;
+}
+
+/*#photoGrid {
+	margin-right: "8vh";
+	margin-left: "8vh;
+}*/
+
+@media only screen and (min-width: 600px) {
+	#photoGrid {
+		margin-right: 8vh;
+		margin-left: 8vh;
+	}
+}
