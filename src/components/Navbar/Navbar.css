@@ -106,12 +106,12 @@
 	#title {
 		font-family: var(--ivymode);
 		/*display: inline;*/
-		margin: 8vh;
+		/*margin: 8vh;*/
 		margin-bottom: 2vh;
 		padding-left: 0vh !important;
 		padding-right: 0vh !important;
 		/*float: left;*/
-		/*font-size: 30px;*/
+		font-size: 30px;
 		color: var(--orange);
 		background-color: none;
 	}
@@ -126,6 +126,8 @@
 	#all-nav-links {
 		font-family: var(--ivymode);
 		padding: 5vh;
+		display: flex;
+		align-items: flex-end;
 	}
 
 	#menu {
