@@ -7,7 +7,7 @@ export default function About() {
 			<head>
 				<meta name="viewport" content="width=device-width" />
 			</head>
-			<Grid columns={2}>
+			<Grid style={{ marginBottom: "2vh" }} columns={2}>
 				<h2 className="aboutTitles" id="aboutTitle">About</h2>
 				<Grid.Row style={{ marginBottom: "2vh" }}>
 					<Grid.Column style={{ width: "75%" }}>

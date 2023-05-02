@@ -11,12 +11,11 @@ import { Grid } from 'semantic-ui-react';
 
 //to do:
 
-// 4. better font and weight for accessibility
 // 6. ITG detail links to bottom of page, make it go to top
 // 7. spacing on cards
 // 7.5 write new blurb (from work?)
-// 8. /* 1500px + needs work on just about everything, itg and home. Esp navbar 
-// (desktop navbar - make a real grid if possible, make sure it doesnt mess up mobile)
+// 8. /* 1500px + needs work on: cert image size, 
+// 9. itg "view more pages" cta padding should be same as footer cta padding
 
 
 // icebox - sticky button lowe rright corner (?) for back to top

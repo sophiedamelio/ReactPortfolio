@@ -4,7 +4,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 export default function Navbar() {
 	const SmoothScroll = () => (
-		<div>
+		<div style={{ marginLeft: "8vh" }}>
 			{/*<AnchorLink href='#about' className="nav-link">About</AnchorLink>*/}
 			<AnchorLink href='#projects' className="nav-link">Projects</AnchorLink>
 			<AnchorLink href='#contact' className="nav-link">Contact</AnchorLink>
@@ -13,12 +13,13 @@ export default function Navbar() {
 
 	return (
 		<div id="navSection">
-			<a href="/" id="title">Sophie Damelio</a>
-			<div id="all-nav-links">
-				<div id="menu-nav-links">
-					<SmoothScroll id="content" />
-				</div>
+			{/*<div id="all-nav-links">*/}
+			<div id="menu-nav-links">
+				<a href="/" id="title">Sophie Damelio</a>
+
+				<SmoothScroll id="content" />
 			</div>
+			{/*</div>*/}
 		</div>
 	)
 }

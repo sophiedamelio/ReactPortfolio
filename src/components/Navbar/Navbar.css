@@ -8,10 +8,12 @@
 		/*padding-left: 1rem;*/
 		/*position: absolute;*/
 		/*left: 1.5rem;*/
-		margin: 8vh;
+		margin-top: 8vh;
+		margin-left: 0vh;
+		margin-right: 0vh;
 		margin-bottom: 0vh;
 		/*margin-top: 2vh;*/
-		margin-top: 18vh;
+		/*margin-top: 18vh;*/
 		padding: 0vh !important;
 		font-family: 'Josefin Sans', sans-serif;
 	}
@@ -43,7 +45,7 @@
 		display: inline;
 		margin: 8vh;
 		margin-left: 8vh !important;
-		margin-bottom: 2vh;
+		margin-bottom: 3vh;
 		margin-top: 6vh;
 		/*padding-left: 8vh !important;*/
 		float: left;
@@ -52,10 +54,10 @@
 		background-color: none;
 	}
 
-	#all-nav-links {
+	/*#all-nav-links {
 		font-family: var(--ivymode);
-		/*padding-left: 8vh;*/
-	}
+		padding-left: 8vh;
+	}*/
 
 	#menu {
 		width: 100%;
@@ -72,11 +74,17 @@
 
 @media only screen and (min-width: 601px){
 	#menu-nav-links {
-		display: inline;
-		padding: 30px;
-		position: absolute;
-		right: 0;
-		font-family: 'Josefin Sans', sans-serif;
+		/*display: inline;*/
+		/*padding: 0vh !important;*/
+		/*position: absolute;*/
+		/*right: 0;*/
+		/*top: 0;*/
+		/*margin-top: 7vh;*/
+		/*background-color: red;*/
+		/*font-family: 'Josefin Sans', sans-serif;*/
+		display: flex;
+		justify-content: space-between;
+		margin-top: 3vh;
 	}
 
 	.nav-link {
@@ -86,8 +94,8 @@
 		text-align: left;
 		padding-left: 2vh;
 		padding-right: 2vh;
-		padding-top: 1.5vh;
-		padding-bottom: 1.5vh;
+		/*padding-top: 1.5vh;
+		padding-bottom: 1.5vh;*/
 	}
 
 	.nav-link:hover {
@@ -98,8 +106,8 @@
 		text-align: left;
 		padding-left: 2vh;
 		padding-right: 2vh;
-		padding-top: 1.5vh;
-		padding-bottom: 1.5vh;
+		/*padding-top: 1.5vh;
+		padding-bottom: 1.5vh;*/
 		border-radius: 500px;
 	}
 
@@ -107,7 +115,7 @@
 		font-family: var(--ivymode);
 		/*display: inline;*/
 		/*margin: 8vh;*/
-		margin-bottom: 2vh;
+		/*margin-bottom: 2vh;*/
 		padding-left: 0vh !important;
 		padding-right: 0vh !important;
 		/*float: left;*/
@@ -121,19 +129,20 @@
 		margin-bottom: 0vh;
 		margin-top: 8vh;
 		padding: 0vh !important;
+		width: 100%;
 	}
 
 	#all-nav-links {
 		font-family: var(--ivymode);
-		padding: 5vh;
-		display: flex;
-		align-items: flex-end;
+		/*padding: 5vh;*/
+		/*display: flex;
+		align-items: flex-end;*/
 	}
 
 	#menu {
 		width: 100%;
 		padding: 0px;
-		padding-top: 2vh;
+		/*padding-top: 2vh;*/
 		background-color: var(--white);
 	}
 
