@@ -126,7 +126,7 @@ export default function Itg() {
 					<img class="d-block w-100" src="https://i.imgur.com/czgMYjj.jpg" alt="Third slide" />
 					<img class="d-block w-100" src="https://i.imgur.com/QreTmcf.jpg" alt="Third slide" />*/}
 			</Grid>
-			<Accordion defaultActiveIndex={1} panels={panels} style={{ marginTop: "5vh", marginBottom: "5vh" }} id="activetitle" />
+			<Accordion defaultActiveIndex={1} panels={panels} style={{ marginTop: "5vh", marginBottom: "5vh", display: "flex", flexDirection: "column" }} id="activetitle" />
 		</div>
 	)
 }

@@ -34,15 +34,17 @@ p {
 	border: 1px solid var(--brown);
 	border-radius: 500px;
 	color: var(--brown);
-    font-size: 16px;
-    width: fit-content;
-    text-align: left;
-    padding-left: 1.25vh !important;
+    /*font-size: 16px;*/
+    width: fit-content !important;
+    /*text-align: left;*/
+    padding-left: 2vh !important;
 	padding-right: 2vh !important;
-	padding-top: 1.5vh;
-    padding-bottom: 1.5vh;
-	margin: 3vh;
+	padding-top: 1.5vh !important;
+    padding-bottom: 1.5vh !important;
+	margin: 1vh;
+	margin-bottom: 3vh;
 	margin-left: 0vh;
+	float: left;
 }
 
 #accordianContainer {

@@ -15,7 +15,6 @@ import { Grid } from 'semantic-ui-react';
 // 7. spacing on cards
 // 7.5 write new blurb (from work?)
 // 8. /* 1500px + needs work on: cert image size, 
-// 9. itg "view more pages" cta padding should be same as footer cta padding
 
 
 // icebox - sticky button lowe rright corner (?) for back to top
