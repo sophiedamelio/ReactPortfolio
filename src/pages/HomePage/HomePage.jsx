@@ -12,7 +12,6 @@ import { Grid } from 'semantic-ui-react';
 //to do:
 
 // 7.5 write new blurb (from work?)
-// 8. /* 1500px + needs work on: cert image size, 
 
 
 // test for:
