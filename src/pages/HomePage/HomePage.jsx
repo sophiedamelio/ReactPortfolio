@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { createRef } from 'react';
 
 import Navbar from '../../components/Navbar/Navbar'
 import Projects from '../../components/Projects/Projects'
@@ -7,7 +7,7 @@ import About from '../../components/About/About'
 
 import './HomePage.css';
 
-import { Grid } from 'semantic-ui-react';
+import { Grid, Icon } from 'semantic-ui-react';
 
 //to do:
 
@@ -20,16 +20,20 @@ import { Grid } from 'semantic-ui-react';
 
 // icebox - sticky button lowe rright corner (?) for back to top
 
+
 export default function HomePage() {
 
 	return (
-		<div id="homePage">
-			<Grid>
-				<Navbar className="components" />
-				<About classname="components" />
-				<Projects className="components" />
-				<Footer classname="components" />
-			</Grid>
-		</div>
+		<>
+			<div id="homePage">
+				<Grid>
+					<Icon name='arrow alternate circle up outline' />
+					<Navbar className="components" />
+					<About classname="components" />
+					<Projects className="components" />
+					<Footer classname="components" />
+				</Grid>
+			</div>
+		</>
 	)
 }
