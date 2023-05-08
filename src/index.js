@@ -8,8 +8,12 @@ import 'semantic-ui-css/semantic.min.css'
 
 import { BrowserRouter } from "react-router-dom";
 
+import ScrollToTop from "./ScrollToTop.jsx";
+
+//src/utils/ScrollToTop/ScrollToTop.jsx
 ReactDOM.render(
   <BrowserRouter>
+    <ScrollToTop/>
     <App />
   </BrowserRouter>,
   document.getElementById('root')
