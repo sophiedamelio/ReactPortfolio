@@ -1,7 +1,7 @@
-img {
+/*img {
 	width: 10%;
 	height: 10%;
-}
+}*/
 
 .projectCta {
 	background-color: var(--white);
@@ -36,3 +36,10 @@ img {
 	margin-bottom: 2vh;
 	padding: 0vh !important;
 }
+
+
+#projectImg {
+	width: auto;
+}
+
+

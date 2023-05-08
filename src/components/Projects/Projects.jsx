@@ -15,7 +15,7 @@ export default function Projects() {
 						<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "100%", height: "100%" }}>
 							<Card.Content>
 								<Card.Header style={{ color: "rgb(110, 87, 91)", fontFamily: "Merriweather" }}>songSpace Express App</Card.Header>
-								<Image src="https://i.imgur.com/QmloUf2.png" alt="screenshot of app" size={'big'} style={{ paddingTop: "2vh", paddingBottom: "2vh" }} />
+								<Image id="projectImg" src="https://i.imgur.com/QmloUf2.png" alt="screenshot of app" size={'big'} style={{ paddingTop: "2vh", paddingBottom: "2vh" }} />
 								<Card.Description style={{ color: "rgb(110, 87, 91)" }}>
 									I built a Fullstack Express App with React frontend, that performs full CRUD functionality.
 									I utilized JWT for authentication, MongoDB for storage, Semantic-ui-react for styling, and Heroku for deployment.
@@ -33,7 +33,7 @@ export default function Projects() {
 						<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "100%", height: "100%" }}>
 							<Card.Content>
 								<Card.Header style={{ color: "rgb(110, 87, 91)", fontFamily: "Merriweather" }}>everyJob Django App</Card.Header>
-								<Image src="https://i.imgur.com/ixSrCHd.png" alt="screenshot of app" size={'big'} style={{ paddingTop: "2vh", paddingBottom: "2vh" }} />
+								<Image id="projectImg" src="https://i.imgur.com/ixSrCHd.png" alt="screenshot of app" size={'big'} style={{ paddingTop: "2vh", paddingBottom: "2vh" }} />
 								<Card.Description style={{ color: "rgb(110, 87, 91)" }}>
 									<p class="card-text">As a part of a four person team I collaboratively  built a Fullstack Django app with full CRUD functionality.
 										We utilized PostgreSQL for database storage, Django built-in Authentication, and deployment on Heroku.</p>
@@ -48,7 +48,7 @@ export default function Projects() {
 						<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "100%", height: "100%" }}>
 							<Card.Content>
 								<Card.Header style={{ color: "rgb(110, 87, 91)", fontFamily: "Merriweather" }}>Wishlist Express App</Card.Header>
-								<Image src="https://i.imgur.com/DgzgQqh.png" alt="screenshot of app" size={'big'} style={{ paddingTop: "2vh", paddingBottom: "2vh" }} />
+								<Image id="projectImg" src="https://i.imgur.com/DgzgQqh.png" alt="screenshot of app" size={'big'} style={{ paddingTop: "2vh", paddingBottom: "2vh" }} />
 								<Card.Description style={{ color: "rgb(110, 87, 91)" }}>
 									<p class="card-text">I built a Wishlist app using Express with full CRUD functionality and Google OAuth.
 										MongoDB is used for storage, and it is deployed on Heroku.</p>
@@ -63,7 +63,7 @@ export default function Projects() {
 						<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "100%", height: "100%" }}>
 							<Card.Content>
 								<Card.Header style={{ color: "rgb(110, 87, 91)", fontFamily: "Merriweather" }}>Connect Four Browser Game</Card.Header>
-								<Image src="https://i.imgur.com/b9LmOUu.png" alt="screenshot of app" size={'big'} style={{ paddingTop: "2vh", paddingBottom: "2vh" }} />
+								<Image id="projectImg" src="https://i.imgur.com/b9LmOUu.png" alt="screenshot of app" size={'big'} style={{ paddingTop: "2vh", paddingBottom: "2vh" }} />
 								<Card.Description style={{ color: "rgb(110, 87, 91)" }}>
 									<p>I built a Connect Four browser game using JavaScript and HTML/CSS.
 										I used a Trello board to plan, and deployed via Github Pages. </p>
@@ -78,7 +78,7 @@ export default function Projects() {
 						<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "100%", height: "100%" }}>
 							<Card.Content>
 								<Card.Header style={{ color: "rgb(110, 87, 91)", fontFamily: "Merriweather" }}>Ideas To Go Website</Card.Header>
-								<Image src="https://i.imgur.com/Zgn5lPV.jpg" alt="screenshot of app" size={'big'} style={{ paddingTop: "2vh", paddingBottom: "2vh" }} />
+								<Image id="projectImg" src="https://i.imgur.com/Zgn5lPV.jpg" alt="screenshot of app" size={'big'} style={{ paddingTop: "2vh", paddingBottom: "2vh" }} />
 								<Card.Description style={{ color: "rgb(110, 87, 91)" }}>
 									<p class="card-text">I developed and designed this website with provided design assets. I organized content, converted graphics and created page layouts. I wrote responsive CSS including section transitions, CTAs, and general styling of elements beyond the built in Squarespace options. </p>
 									<a className="projectCta" target="_blank" rel="noopener noreferrer" href='https://github.com/sophiedamelio/itg_css' style={{ marginLeft: "0vh" }}>Link to the Repo</a>
@@ -92,7 +92,7 @@ export default function Projects() {
 						<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "100%", height: "100%" }}>
 							<Card.Content>
 								<Card.Header style={{ color: "rgb(110, 87, 91)", fontFamily: "Merriweather" }}>placeholder</Card.Header>
-								<Image src="https://i.imgur.com/Zgn5lPV.jpg" alt="screenshot of app" size={'big'} style={{ paddingTop: "2vh", paddingBottom: "2vh" }} />
+								<Image id="projectImg" src="https://i.imgur.com/Zgn5lPV.jpg" alt="screenshot of app" size={'big'} style={{ paddingTop: "2vh", paddingBottom: "2vh" }} />
 								<Card.Description style={{ color: "rgb(110, 87, 91)" }}>
 									<p class="card-text">I developed and designed this website with provided design assets. I organized content, converted graphics and created page layouts. I wrote responsive CSS including section transitions, CTAs, and general styling of elements beyond the built in Squarespace options. </p>
 									<a className="projectCta" target="_blank" rel="noopener noreferrer" href='https://github.com/sophiedamelio/itg_css' style={{ marginLeft: "0vh" }}>Link to the Repo</a>
