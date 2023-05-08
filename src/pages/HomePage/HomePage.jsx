@@ -12,7 +12,7 @@ import { Grid } from 'semantic-ui-react';
 //to do:
 
 // 6. ITG detail links to bottom of page, make it go to top
-// 7. spacing on cards
+// 7. spacing on cards (?)
 // 7.5 write new blurb (from work?)
 // 8. /* 1500px + needs work on: cert image size, 
 

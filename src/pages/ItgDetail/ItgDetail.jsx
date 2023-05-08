@@ -6,6 +6,7 @@ import './ItgDetail.css'
 import { Icon } from "semantic-ui-react"
 
 
+
 export default function ItgDetail() {
 	return (
 		<div id="itgDetail">
