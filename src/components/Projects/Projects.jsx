@@ -1,10 +1,9 @@
 import "./Projects.css"
+
 import { Grid, Card, Image } from "semantic-ui-react"
 import { Link } from "react-router-dom"
 
-
 export default function Projects() {
-
 	return (
 		<div id="projectsSection">
 			<section id="projects">

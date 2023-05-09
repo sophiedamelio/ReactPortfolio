@@ -1,16 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
 import './index.css';
-import App from './pages/App/App';
-import reportWebVitals from './reportWebVitals';
-import './fonts/OPTIAmway.otf'
 import 'semantic-ui-css/semantic.min.css'
+import App from './pages/App/App';
 
+import ReactDOM from 'react-dom';
+import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
-
 import ScrollToTop from "./ScrollToTop.jsx";
 
-//src/utils/ScrollToTop/ScrollToTop.jsx
 ReactDOM.render(
   <BrowserRouter>
     <ScrollToTop/>
