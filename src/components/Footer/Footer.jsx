@@ -1,4 +1,5 @@
 import "./Footer.css"
+
 import { Grid } from "semantic-ui-react"
 
 export default function Footer() {

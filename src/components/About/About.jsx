@@ -1,9 +1,10 @@
 import './About.css'
+
 import { Grid, Image } from 'semantic-ui-react'
 
 export default function About() {
 	return (
-		<div id="aboutSection">
+		<section id="aboutSection">
 			<head>
 				<meta name="viewport" content="width=device-width" />
 			</head>
@@ -44,6 +45,6 @@ export default function About() {
 					</Grid.Column>
 				</Grid.Row>
 			</Grid>
-		</div >
+		</section >
 	)
 }

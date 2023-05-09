@@ -104,24 +104,6 @@ export default function Itg() {
 						<Image id="img" src="https://i.imgur.com/1z0NPZI.jpg" alt="Third slide" size={"medium"} />
 					</Grid.Column>
 				</Grid.Row>
-
-				{/*<img class="d-block w-100" src="https://i.imgur.com/6dGoGb1.jpg" alt="Third slide" />
-					<img class="d-block w-100" src="https://i.imgur.com/doAsgK1.jpg" alt="Third slide" />
-					<img class="d-block w-100" src="https://i.imgur.com/2MvQylD.jpg" alt="Third slide" />
-					<img class="d-block w-100" src="https://i.imgur.com/OeLb6Up.jpg" alt="Third slide" />
-					<img class="d-block w-100" src="https://i.imgur.com/AfXUQ8E.jpg" alt="Third slide" />
-					<img class="d-block w-100" src="https://i.imgur.com/CB5NQa3.jpg" alt="Third slide" />
-					<img class="d-block w-100" src="https://i.imgur.com/9mBHFKt.jpg" alt="Third slide" />
-					<img class="d-block w-100" src="https://i.imgur.com/lAqkpka.jpg" alt="Third slide" />
-					<img class="d-block w-100" src="https://i.imgur.com/lbs2mEB.jpg" alt="Third slide" />
-					<img class="d-block w-100" src="https://i.imgur.com/lmzsSwF.jpg" alt="Third slide" />
-					<img class="d-block w-100" src="https://i.imgur.com/pNELKQJ.jpg" alt="Third slide" />
-					<img class="d-block w-100" src="https://i.imgur.com/e6QPKi8.png" alt="Third slide" />
-					<img class="d-block w-100" src="https://i.imgur.com/yxWTgsT.jpg" alt="Third slide" />
-					<img class="d-block w-100" src="https://i.imgur.com/ifdhqwH.jpg" alt="Third slide" />
-					<img class="d-block w-100" src="https://i.imgur.com/uJgpJQb.jpg" alt="Third slide" />
-					<img class="d-block w-100" src="https://i.imgur.com/czgMYjj.jpg" alt="Third slide" />
-					<img class="d-block w-100" src="https://i.imgur.com/QreTmcf.jpg" alt="Third slide" />*/}
 			</Grid>
 			<Accordion defaultActiveIndex={1} panels={panels} style={{ marginTop: "5vh", marginBottom: "5vh", display: "flex", flexDirection: "column" }} id="activetitle" />
 		</section>

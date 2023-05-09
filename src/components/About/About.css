@@ -13,8 +13,6 @@
 .aboutCta {
 	color: var(--brown);
 	font-size: 16px;
-	/* need to fix width to be responsive */
-	/*width: 15vh;*/
 	text-align: left;
 	padding-left: 2vh;
 	padding-right: 2vh;
@@ -23,8 +21,6 @@
 	border: 1px solid var(--brown);
 	border-radius: 500px;
 	margin-top: 3vh;
-	/*float: left;*/
-	/*margin-left: 3vh;*/
 	text-align: center;
 }
 
@@ -32,15 +28,12 @@
 	color: var(--white);
 	background-color: var(--brown);
 	font-size: 16px;
-	/* need to fix width to be responsive */
-	/*width: 15vh;*/
 	text-align: left;
 	padding-left: 2vh;
 	padding-right: 2vh;
 	padding-top: 1.5vh;
 	padding-bottom: 1.5vh;
 	border-radius: 500px;
-	/*float: left;*/
 	margin-top: 3vh;
 	text-align: center;
 }
@@ -49,13 +42,8 @@
 	margin-bottom: 3vh;
 }
 
-
-
-
+/* mobile */
 @media only screen and (min-width: 1px) and (max-width: 600px){
-	/*#aboutTitle {
-		display: none;
-	}*/
 
 	#certifications {
 		padding-top: 7vh;
@@ -77,7 +65,7 @@
 	}
 }
 
-
+/* larger than mobile, up to small desktop */
 @media only screen and (min-width: 601px) and (max-width: 1500px) {
 
 	#gaImageParent {
@@ -96,8 +84,8 @@
 	}
 }
 
-/* 1500 + here */
 
+/* medium desktop (1501px) and larger */
 @media only screen and (min-width: 1501px) {
 
 	#gaImageParent {

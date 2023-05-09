@@ -1,6 +1,4 @@
-/* itg rgb(11, 35, 53)*/
-
-
+/* larger than mobile */
 @media only screen and (min-width: 600px) {
 	#photoGrid {
 		margin-right: 8vh;
@@ -8,6 +6,7 @@
 	}
 }
 
+/* anything up to tablet */
 @media only screen and (min-width: 1px) and (max-width: 991px){
 	#previewGrid {
 		margin-top: 0px !important;
@@ -17,6 +16,7 @@
 	}
 }
 
+/* applies to all sizes, unless specified above */
 h2 {
 	font-family: var(--ivymode);
 	color: var(--brown);
@@ -34,9 +34,7 @@ p {
 	border: 1px solid var(--brown);
 	border-radius: 500px;
 	color: var(--brown);
-    /*font-size: 16px;*/
     width: fit-content !important;
-    /*text-align: left;*/
     padding-left: 2vh !important;
 	padding-right: 2vh !important;
 	padding-top: 1.5vh !important;
@@ -66,12 +64,6 @@ p {
 	justify-content: center;
 }
 
-/*#photoGrid {
-	margin-right: "8vh";
-	margin-left: "8vh;
-}*/
-
 #img {
 	border: 1px solid rgb(11, 35, 53);
-	/*background-color: red;*/
 }
