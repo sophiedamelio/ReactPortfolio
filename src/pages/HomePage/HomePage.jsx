@@ -7,14 +7,10 @@ import About from '../../components/About/About'
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { Grid, Icon } from 'semantic-ui-react';
 
-
-//to do:
-// clean up imports and comments
-
-
 // test for:
-// 6. ITG detail links to top of page
+// ITG detail links to top of page
 // once live, change readme for custom css in github to link to new website
+// (^^ link is not working, issue with routing needs to be fixed)
 
 
 export default function HomePage() {
