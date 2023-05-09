@@ -68,7 +68,7 @@ export default function Projects() {
 									<p>I built a Connect Four browser game using JavaScript and HTML/CSS.
 										I used a Trello board to plan, and deployed via Github Pages. </p>
 									<a className="projectCta" target="_blank" rel="noopener noreferrer" href="https://github.com/sophiedamelio/connect_four/" style={{ marginLeft: "0vh" }}>Link to the Repo</a>
-									<a className="projectCta" target="_blank" rel="noopener noreferrer" href="https://sophiedamelio.github.io/connect_four/" style={{ marginLeft: "0vh" }}>Play Connect Four</a>
+									<a className="projectCta" target="_blank" rel="noopener noreferrer" href="https://sophiedamelio.github.io/connect_four_browser_game/" style={{ marginLeft: "0vh" }}>Play Connect Four</a>
 								</Card.Description>
 							</Card.Content>
 						</Card>
@@ -89,17 +89,16 @@ export default function Projects() {
 					</Grid.Column>
 
 					<Grid.Column>
-						<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "100%", height: "100%" }}>
+						{/*<Card style={{ backgroundColor: "rgb(234, 204, 203)", width: "100%", height: "100%" }}>
 							<Card.Content>
 								<Card.Header style={{ color: "rgb(110, 87, 91)", fontFamily: "Merriweather" }}>placeholder</Card.Header>
 								<Image id="projectImg" src="https://i.imgur.com/Zgn5lPV.jpg" alt="screenshot of app" size={'big'} style={{ paddingTop: "2vh", paddingBottom: "2vh" }} />
 								<Card.Description style={{ color: "rgb(110, 87, 91)" }}>
 									<p class="card-text">I developed and designed this website with provided design assets. I organized content, converted graphics and created page layouts. I wrote responsive CSS including section transitions, CTAs, and general styling of elements beyond the built in Squarespace options. </p>
 									<a className="projectCta" target="_blank" rel="noopener noreferrer" href='https://github.com/sophiedamelio/itg_css' style={{ marginLeft: "0vh" }}>Link to the Repo</a>
-									{/*<a className="projectCta" href='/itg_detail' style={{ marginLeft: "0vh" }}>View</a>*/}
 								</Card.Description>
 							</Card.Content>
-						</Card>
+						</Card>*/}
 					</Grid.Column>
 				</Grid>
 			</section>
