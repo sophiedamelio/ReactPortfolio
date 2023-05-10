@@ -9,7 +9,6 @@ import { Grid, Icon } from 'semantic-ui-react';
 
 
 // make scroll button go away at top of page
-// padding between certifications and projects is too large
 
 // test for:
 // ITG detail links to top of page
