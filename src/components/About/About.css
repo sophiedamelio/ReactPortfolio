@@ -82,6 +82,11 @@
 		height: auto;
 		flex-wrap: nowrap;
 	}
+
+	#aboutSection {
+		margin: 8vh;
+		margin-bottom: -3vh;
+	}
 }
 
 
@@ -101,5 +106,10 @@
 		width: 5%;
 		height: auto;
 		flex-wrap: nowrap;
+	}
+
+	#aboutSection {
+		margin: 8vh;
+		margin-bottom: -4vh;
 	}
 }
