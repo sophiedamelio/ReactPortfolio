@@ -8,7 +8,9 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { Grid, Icon } from 'semantic-ui-react';
 
 
+// PRIORITY: fix routing, only links from home to freelanceDetail work, external link /freelanceDetail needs to work too
 // make scroll button go away at top of page
+// icebox: darkmode toggle
 
 // test for:
 // ITG detail links to top of page
