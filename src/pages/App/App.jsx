@@ -1,6 +1,6 @@
 import './App.css';
-//import HomePage from '../HomePage/HomePage'
-//import ItgDetail from '../ItgDetail/ItgDetail';
+import HomePage from '../homePage/homePage'
+import ItgDetail from '../itgDetail/itgDetail';
 
 import { Routes, Route } from "react-router-dom";
 
