@@ -2,6 +2,8 @@ import './About.css'
 
 import { Grid, Image } from 'semantic-ui-react'
 
+// to do: css breaks at 420px ish and smaller
+
 export default function About() {
 	return (
 		<section id="aboutSection">
@@ -42,6 +44,16 @@ export default function About() {
 					<Grid.Column style={{ width: "90%" }}>
 						<p>Earned Amazon Web Services Cloud Practitioner in December 2022.</p>
 						<a href="https://drive.google.com/file/d/1D5v2TuKKotWfzmyLNL6wXJBFDioDU36U/view" target="blank" className="aboutCta">Show credential</a>
+					</Grid.Column>
+				</Grid.Row>
+
+				<Grid.Row verticalAlign={"middle"} style={{ display: "flex", flexWrap: "nowrap" }}>
+					<Grid.Column id="googleImageParent">
+						<Image className="googleImage" style={{ width: "100%" }} src="https://i.imgur.com/IqzzwgZ.png" alt="google-tag-manager-certification-image" />
+					</Grid.Column>
+					<Grid.Column style={{ width: "90%" }}>
+						<p>Earned Google Tag Manager Fundamentals Certificate in December 2023.</p>
+						<a href="https://drive.google.com/file/d/13QhWh7uNg0XcbECrxOSrdNHCWzbmmprV/view" target="blank" className="aboutCta">Show credential</a>
 					</Grid.Column>
 				</Grid.Row>
 			</Grid>

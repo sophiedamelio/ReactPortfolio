@@ -13,8 +13,8 @@ export default function Footer() {
 						<div style={{ marginTop: "3.5vh" }}>
 							<a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/sophiedamelio/" className="footer-nav-link">LinkedIn</a>
 							<a target="_blank" rel="noopener noreferrer" href="https://github.com/sophiedamelio/" className="footer-nav-link">GitHub</a>
-							<a href="https://docs.google.com/document/d/1LPEHmH7vYy471BvStVojWTBq3CVGEgukQoUej6Y2k0w/export?format=pdf" download="sophie_damelio_resume" className="footer-nav-link">Download Resume</a>
-							<a href="https://drive.google.com/file/d/1CJNBY9hLpkBf6B8dgjULcjn_ohNnPSvJ/view" target="blank" className="footer-nav-link">View Resume</a>
+							<a href="https://docs.google.com/document/d/1n_-deO-YPNkgy0773qg5FbcjDgp_RFCBC2GPqIF8GVY/export?format=pdf" download="sophie_damelio_resume" className="footer-nav-link">Download Resume</a>
+							<a href="https://docs.google.com/document/d/1n_-deO-YPNkgy0773qg5FbcjDgp_RFCBC2GPqIF8GVY/" target="blank" className="footer-nav-link">View Resume</a>
 						</div>
 					</Grid.Column>
 				</Grid.Row>

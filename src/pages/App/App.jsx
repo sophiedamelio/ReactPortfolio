@@ -1,13 +1,20 @@
 import './App.css';
-import HomePage from '../homePage/homePage'
-import ItgDetail from '../itgDetail/itgDetail';
+import HomePage from '../HomePage/HomePage.jsx'
+import ItgDetail from '../ItgDetail/ItgDetail';
 
 import { Routes, Route } from "react-router-dom";
 
 
 //to do:
-// edit the view resume link to be the correct resume
-//from 610 pixels and below, media query and fix spacing when resizing smaller whole navbar
+//all media queries - header text spacing and wrap fixed
+//all media queries - nav menu fixed
+//all media - certification images fixed
+//mobile, tablet, maybe desktop - text on CTA wrapped (ref: card CTAs)
+//update photo?
+//have return to top of page only show up when not at top of page
+//make scroll to top accessible
+//accessibility audit on whole site
+
 
 
 function App() {

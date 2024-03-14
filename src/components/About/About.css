@@ -42,8 +42,13 @@
 	margin-bottom: 3vh;
 }
 
-/* mobile */
-@media only screen and (min-width: 1px) and (max-width: 600px){
+/*mobile - make credential images show large abive each cred */
+/* make text on buttons wrap */
+@media only screen and (min-width: 1px) and (max-width: 471px){
+
+	/*.aboutCta {
+
+	}*/
 
 	#certifications {
 		padding-top: 7vh;
@@ -51,22 +56,23 @@
 	}
 
 	#gaImageParent {
-		width: 30%;
+		width: 100%;
 	}
 	#awsImageParent {
-		width: 30%;
+		width: 100%;
 	}
-	.gaImage {
+	#googleImageParent {
+		width: 100%;
+	}
+	.gaImage, .awsImage, .googleImage {
 		flex-wrap: nowrap;
-	}
-	.awsImage {
-		margin-bottom: 10vh;
+		margin-bottom: 2vh;
 		width: 100%;
 	}
 }
 
-/* larger than mobile, up to small desktop */
-@media only screen and (min-width: 601px) and (max-width: 1500px) {
+/* larger than mobile, up to tablet */
+@media only screen and (min-width: 480) and (max-width: 768) {
 
 	#gaImageParent {
 		width: 15%;
@@ -76,7 +82,39 @@
 		width: 15%;
 	}
 
-	.gaImage, .awsImage {
+	#googleImageParent {
+		width: 15%;
+	}
+
+	.gaImage, .awsImage, .googleImage {
+		margin-bottom: 3vh;
+		width: 10%;
+		height: auto;
+		flex-wrap: nowrap;
+	}
+
+	#aboutSection {
+		margin: 8vh;
+		margin-bottom: -3vh;
+	}
+}
+
+/* larger than tablet, up to desktop */
+@media only screen and (min-width: 769) and (max-width: 1500) {
+
+	#gaImageParent {
+		width: 15%;
+	}
+
+	#awsImageParent {
+		width: 15%;
+	}
+
+	#googleImageParent {
+		width: 15%;
+	}
+
+	.gaImage, .awsImage, .googleImage {
 		margin-bottom: 3vh;
 		width: 10%;
 		height: auto;
@@ -101,7 +139,11 @@
 		width: 10%;
 	}
 
-	.gaImage, .awsImage {
+	#googleImageParent {
+		width: 10%;
+	}
+
+	.gaImage, .awsImage, .googleImage {
 		margin-bottom: 1vh;
 		width: 5%;
 		height: auto;
