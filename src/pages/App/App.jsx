@@ -14,6 +14,7 @@ import { Routes, Route } from "react-router-dom";
 //have return to top of page only show up when not at top of page
 //make scroll to top accessible
 //accessibility audit on whole site
+//make email in contact section a link for gmail?
 
 
 
