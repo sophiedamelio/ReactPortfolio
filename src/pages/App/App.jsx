@@ -15,6 +15,9 @@ import { Routes, Route } from "react-router-dom";
 //make scroll to top accessible
 //accessibility audit on whole site
 //make email in contact section a link for gmail?
+//scroll to page with nice margin above section header
+//ITG detail page needs full redo! not centered at half desptop, not great full desktop either
+
 
 
 
@@ -28,5 +31,4 @@ function App() {
     </section>
   );
 }
-
 export default App;
