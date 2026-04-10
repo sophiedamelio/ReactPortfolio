@@ -28,8 +28,8 @@ export default function About() {
 				{/*<h2 className="aboutTitles" id="certifications" style={{ paddingBottom: "1rem" }}>Certifications</h2>*/}
 
 				<Grid.Row verticalAlign={"middle"} style={{ display: "flex", flexWrap: "nowrap" }}>
-					<Grid.Column id="gaImageParent">
-						<Image className="gaImage" style={{ width: "40%" }} src="https://i.imgur.com/hN7GAid.png" alt="general-assembly-logo" />
+					<Grid.Column id="gaImageParent" class="column" style="width: 15%">
+						<Image className="gaImage" src="https://i.imgur.com/hN7GAid.png" alt="general-assembly-logo" />
 					</Grid.Column>
 					<Grid.Column style={{ width: "90%" }}>
 						<p>Completed a full-stack software engineering immersive program in an intensive, twelve-week, 420+ hour program focused on product development fundamentals, object-oriented programming, MVC frameworks, data modeling, and team collaboration strategies. Developed a portfolio of individual and group projects.</p>
