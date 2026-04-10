@@ -47,7 +47,7 @@ export default function About() {
 					</Grid.Column>
 				</Grid.Row>
 
-				<Grid.Row verticalAlign={"middle"} style={{ display: "flex", flexWrap: "nowrap" }}>
+				{/*<Grid.Row verticalAlign={"middle"} style={{ display: "flex", flexWrap: "nowrap" }}>
 					<Grid.Column id="googleImageParent">
 						<Image className="googleImage" style={{ width: "40%" }} src="https://i.imgur.com/IqzzwgZ.png" alt="google-tag-manager-certification-image" />
 					</Grid.Column>
@@ -55,7 +55,7 @@ export default function About() {
 						<p>Earned Google Tag Manager Fundamentals Certificate in December 2023.</p>
 						<a href="https://drive.google.com/file/d/13QhWh7uNg0XcbECrxOSrdNHCWzbmmprV/view" target="blank" className="aboutCta">Show credential</a>
 					</Grid.Column>
-				</Grid.Row>
+				</Grid.Row>*/}
 			</Grid>
 		</section >
 	)
