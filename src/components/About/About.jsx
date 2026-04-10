@@ -29,7 +29,7 @@ export default function About() {
 
 				<Grid.Row verticalAlign={"middle"} style={{ display: "flex", flexWrap: "nowrap" }}>
 					<Grid.Column id="gaImageParent">
-						<Image className="gaImage" style={{ width: "100%" }} src="https://i.imgur.com/hN7GAid.png" alt="general-assembly-logo" />
+						<Image className="gaImage" style={{ width: "40%" }} src="https://i.imgur.com/hN7GAid.png" alt="general-assembly-logo" />
 					</Grid.Column>
 					<Grid.Column style={{ width: "90%" }}>
 						<p>Completed a full-stack software engineering immersive program in an intensive, twelve-week, 420+ hour program focused on product development fundamentals, object-oriented programming, MVC frameworks, data modeling, and team collaboration strategies. Developed a portfolio of individual and group projects.</p>
@@ -39,7 +39,7 @@ export default function About() {
 
 				<Grid.Row verticalAlign={"middle"} style={{ display: "flex", flexWrap: "nowrap" }}>
 					<Grid.Column id="awsImageParent">
-						<Image className="awsImage" style={{ width: "100%" }} src="https://i.imgur.com/5feNx95.png" alt="amazon-web-services-certification-image" />
+						<Image className="awsImage" style={{ width: "40%" }} src="https://i.imgur.com/5feNx95.png" alt="amazon-web-services-certification-image" />
 					</Grid.Column>
 					<Grid.Column style={{ width: "90%" }}>
 						<p>Earned Amazon Web Services Cloud Practitioner in December 2022.</p>
@@ -49,7 +49,7 @@ export default function About() {
 
 				<Grid.Row verticalAlign={"middle"} style={{ display: "flex", flexWrap: "nowrap" }}>
 					<Grid.Column id="googleImageParent">
-						<Image className="googleImage" style={{ width: "100%" }} src="https://i.imgur.com/IqzzwgZ.png" alt="google-tag-manager-certification-image" />
+						<Image className="googleImage" style={{ width: "40%" }} src="https://i.imgur.com/IqzzwgZ.png" alt="google-tag-manager-certification-image" />
 					</Grid.Column>
 					<Grid.Column style={{ width: "90%" }}>
 						<p>Earned Google Tag Manager Fundamentals Certificate in December 2023.</p>
