@@ -16,7 +16,7 @@ export default function About() {
 					<Grid.Column style={{ width: "75%" }}>
 						<p>I am a Seattle based Software Engineer who has spent the last three years growing my knowledge base and gaining experience. I have a special passion for both teaching and learning new technology. I have strong communication skills, and I pursue growth while delivering solutions with confidence and accuracy.</p>
 						<p>I am design driven and artistic, excel in collective communication, and have a strong ability to pick up new languages and skills quickly. My primary experience has been in creating responsive websites and mobile-first apps.</p>
-						<p>My current abilities include proficiency in: JavaScript, Python, React, HTML/CSS, Django, Express, Node.js, Heroku, Data Modeling, MongoDB and PostgreSQL.</p>
+						<p>My current abilities include proficiency in: JavaScript, Python, React, HTML/CSS, Django, Express, Node.js, Heroku, MongoDB and PostgreSQL.</p>
 					</Grid.Column>
 
 					<Grid.Column style={{ width: "25%" }}>
