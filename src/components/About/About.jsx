@@ -37,7 +37,7 @@ export default function About() {
 					</Grid.Column>
 				</Grid.Row>
 
-				<Grid.Row verticalAlign={"middle"} style={{ display: "flex", flexWrap: "nowrap" }}>
+				{/*<Grid.Row verticalAlign={"middle"} style={{ display: "flex", flexWrap: "nowrap" }}>
 					<Grid.Column id="awsImageParent">
 						<Image className="awsImage" style={{ width: "40%" }} src="https://i.imgur.com/5feNx95.png" alt="amazon-web-services-certification-image" />
 					</Grid.Column>
@@ -45,7 +45,7 @@ export default function About() {
 						<p>Earned Amazon Web Services Cloud Practitioner in December 2022.</p>
 						<a href="https://drive.google.com/file/d/1D5v2TuKKotWfzmyLNL6wXJBFDioDU36U/view" target="blank" className="aboutCta">Show credential</a>
 					</Grid.Column>
-				</Grid.Row>
+				</Grid.Row>*/}
 
 				{/*<Grid.Row verticalAlign={"middle"} style={{ display: "flex", flexWrap: "nowrap" }}>
 					<Grid.Column id="googleImageParent">
