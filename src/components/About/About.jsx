@@ -25,7 +25,7 @@ export default function About() {
 				</Grid.Row>
 			</Grid>
 			<Grid className="certificationsGrid" columns={2}>
-				<h2 className="aboutTitles" id="certifications" style={{ paddingBottom: "1rem" }}>Certifications</h2>
+				{/*<h2 className="aboutTitles" id="certifications" style={{ paddingBottom: "1rem" }}>Certifications</h2>*/}
 
 				<Grid.Row verticalAlign={"middle"} style={{ display: "flex", flexWrap: "nowrap" }}>
 					<Grid.Column id="gaImageParent">
