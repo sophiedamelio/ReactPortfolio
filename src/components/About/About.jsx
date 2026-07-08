@@ -3,6 +3,8 @@ import './About.css'
 import { Grid, Image } from 'semantic-ui-react'
 
 // to do: css breaks at 420px ish and smaller
+{/*<div style={{ marginTop: '20px', color: 'white' }}>...</div>*/ }
+
 
 export default function About() {
 	return (
@@ -28,7 +30,7 @@ export default function About() {
 				{/*<h2 className="aboutTitles" id="certifications" style={{ paddingBottom: "1rem" }}>Certifications</h2>*/}
 
 				<Grid.Row verticalAlign={"middle"} style={{ display: "flex", flexWrap: "nowrap" }}>
-					<Grid.Column id="gaImageParent" class="column" style="width: 15%">
+					<Grid.Column id="gaImageParent" class="column" style={{ width: "15%" }}>
 						<Image className="gaImage" src="https://i.imgur.com/hN7GAid.png" alt="general-assembly-logo" />
 					</Grid.Column>
 					<Grid.Column style={{ width: "90%" }}>
