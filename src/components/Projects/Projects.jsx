@@ -22,7 +22,7 @@ export default function Projects() {
 									username: demo@demo.com <br></br>
 									password: demo <br></br>
 									<a target="_blank" rel="noopener noreferrer" href="https://github.com/sophiedamelio/project_4" className="projectCta" style={{ marginLeft: "0vh" }}>Link to the Repo</a>
-									<a target="_blank" rel="noopener noreferrer" href="https://songspace-app.herokuapp.com/" className="projectCta" style={{ marginLeft: "0vh" }}>Explore songSpace</a>
+									{/*<a target="_blank" rel="noopener noreferrer" href="https://songspace-app.herokuapp.com/" className="projectCta" style={{ marginLeft: "0vh" }}>Explore songSpace</a>*/}
 								</Card.Description>
 							</Card.Content>
 						</Card>
